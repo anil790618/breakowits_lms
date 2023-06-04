@@ -1,0 +1,327 @@
+CRITICAL - 2023-06-04 04:05:53 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:18 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:47 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:48 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:49 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:49 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:49 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:49 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:49 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:50 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:50 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:50 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:50 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:50 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:51 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:51 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:06:51 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:08:39 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:08:41 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:08:41 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:09:10 --> Invalid file: "view_assets/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assets/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assets/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('view_assets/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:30:33 --> include_once(.base_url().header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.base_url().header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:31:18 --> include_once(.base_url().header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.base_url().header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:31:33 --> include_once(.base_url().header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.base_url().header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:34:10 --> include_once(../header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(../header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:35:18 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 3.
+ 1 APPPATH\Views\view_assests\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 3)
+ 2 APPPATH\Views\view_assests\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:35:22 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 3.
+ 1 APPPATH\Views\view_assests\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 3)
+ 2 APPPATH\Views\view_assests\dashboard.php(3): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 04:37:45 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:23:31 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:26:28 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:27:03 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Views\view_assests\dashboard.php on line 2.
+ 1 APPPATH\Views\view_assests\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php', 2)
+ 2 APPPATH\Views\view_assests\dashboard.php(2): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\LearningManagementSystem_ci\\app\\Views\\view_assests\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('view_assests/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:34:17 --> Invalid file: "menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-04 05:35:32 --> Invalid file: "cview_assests/dashboardontent.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cview_assests/dashboardontent.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('cview_assests/dashboardontent', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('cview_assests/dashboardontent')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
