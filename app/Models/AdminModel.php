@@ -3,14 +3,14 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-
+// use CodeIgniter\Database\ConnectionInterface;
 class AdminModel extends Model
 {
     protected $table = 'tbl_users';
-    protected $allowedFields = ['id','first_name','last_name','email','password'];
+    protected $allowedFields = ['user_role_id','first_name','last_name','email','password'];
     // protected $beforeInsert = ['beforInsert'];
     // protected $beforeUpdate = ['beforeUpdate'];
-    // protected $primaryKey = ['id'];
+    protected $primaryKey = ['id'];
 
 
     protected function beforeInsert(array $data){
@@ -37,4 +37,18 @@ class AdminModel extends Model
 
         // return $data;
     }
+
+    public function getRowData($table,$columns,$condition)
+    {
+    	$query = $this->db->table($table)->select($columns)->where($condition)->get();
+		if ($query->getNumRows() > 0) 
+		{
+			return $query->getRowArray();
+		}
+    }
+      public function getPost()
+     {
+       $sql = "select * from Users where user_role_id=3";
+       return $sql;
+     }
 }

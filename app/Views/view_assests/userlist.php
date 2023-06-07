@@ -20,33 +20,17 @@
             <div class="card-body">
               <h5 class="card-title">Admin List</h5>  
               <!-- Table with stripped rows -->
-              <table class="table datatable">
+              <table class="table ">
                 <thead>
                   <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">First name</th>
-                    <th scope="col">Last name</th>
-                    <th scope="col">Email ID</th>
-                    <th scope="col">Action</th>
-                  </tr>
+                  <th scope="col">S.No.</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Joining Date</th>
+                  <th scope="col">Action</th> 
+                </tr>
                 </thead>
-                <tbody>
-                <?php
-                  foreach( $userdata as $key=>$value){
-                  ?>
-                  <tr>
-                    <th scope="row"><?php echo $value['id']   ?></th>
-                    <td><?php echo $value['first_name']   ?></td>
-                    <td><?php echo $value['last_name']   ?></td>
-                    <td><?php echo $value['email']   ?></td> 
-                    <td>
-                      <a href=""><button class="btn btn-primary">Edit</button></a>
-                      <a href=""><button class="btn btn-danger">Delete</button></a>
-                    </td>
-                  </tr>
-                  <?php
-                  }
-                ?>
+                <tbody class="admin_output"> 
    
                  
                 </tbody>

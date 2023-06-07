@@ -36,8 +36,20 @@ $routes->get('/signup', 'Home::signup',['filter'=>'noauth']);
 $routes->get('dashboard', 'Home::dashboard',['filter'=>'noauth']);
 $routes->match(['get','post'],'/signup','Home::signup',['filter'=>'noauth']);
 $routes->get('/userlist', 'Home::userlist',['filter'=>'noauth']); 
-$routes->get('/instructor', 'Home::instructor',['filter'=>'noauth']); 
+// $routes->get('/instructor', 'Home::instructor',['filter'=>'noauth']); 
+// $routes->post('/instructor_data', 'Home::instructor_data',['filter'=>'noauth']);
+$routes->match(['get'],'instructor','Home::instructor'); 
+$routes->match(['get','post'],'instructor_data','Home::instructor_data');
+$routes->match(['get','post'],'instructor_form_data','Home::instructor_save');
+$routes->match(['get','post'],'admin_data','Home::admin_data');
+$routes->match(['get','post'],'student_data','Home::student_data');
+$routes->match(['get','post'],'student_form_data','Home::student_save');
+
+
+
 $routes->get('/student', 'Home::student',['filter'=>'noauth']); 
+$routes->get('/student_profile', 'Home::student_profile',['filter'=>'noauth']); 
+$routes->get('/courselist', 'Home::courselist',['filter'=>'noauth']); 
 $routes->get('/logout', 'Home::logout',['filter'=>'noauth']); 
 
 

@@ -2,6 +2,12 @@
 
 namespace App\Controllers;
 use App\Models\AdminModel; 
+use App\Models\Main_model; 
+use CodeIgniter\Controller;
+// use CodeIgniter\Models\Main_model;
+
+// $modelMain = new \App\Models\Main_model();
+$this->main_model = new Main_model();
 class Home extends BaseController
 {
     public function __construct(){
@@ -119,16 +125,76 @@ class Home extends BaseController
     }
     public function instructor()
     {  
+        $model = new AdminModel();
+        $data['userdata'] = $model->findAll(); 
         return view('header')
         . view('sidemenu')
-        . view('view_assests/instructor')
+        . view('view_assests/instructor',$data)
         . view('footer');
     }
+    public function instructor_data()
+    {   
+            $data['instructor'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 2");
+           //$data='poja';
+            //    print_r(json_encode($data)); 
+               return json_encode($data); 
+    
+    }
+    public function admin_data()
+    {   
+            $data['admin'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 1");
+           
+             return json_encode($data); 
+    
+    }
+    public function student_data()
+    {   
+            $data['student'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 3");
+           
+             return json_encode($data); 
+    
+    }
+   public function instructor_save(){
+        $data =  $this->request->getVar(); 
+        echo $data['password']=md5($data['password']); 
+            $result = $this->main_model->insert_table('tbl_users',$data);
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
+   public function student_save(){
+        $data =  $this->request->getVar(); 
+        echo $data['password']=md5($data['password']); 
+            $result = $this->main_model->insert_table('tbl_users',$data);
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
     public function student()
     {  
         return view('header')
         . view('sidemenu')
         . view('view_assests/student')
+        . view('footer');
+    }
+    public function student_profile()
+    {  
+        return view('header')
+        . view('sidemenu')
+        . view('view_assests/student_profile')
+        . view('footer');
+    }
+    public function courselist()
+    {  
+        return view('header')
+        . view('sidemenu')
+        . view('view_assests/courselist')
         . view('footer');
     }
 
@@ -140,4 +206,6 @@ class Home extends BaseController
         // echo  "logout ";
         return redirect()->to('/'); 
     }
+
+
 }

@@ -2,6 +2,16 @@
 
 <div class="pagetitle">
   <h1>Data Tables</h1> 
+  <!-- form submit status  -->
+  <!-- <div class="alert " id="form_submit_status" role="alert"> -->
+  <div class="alert alert-success" role="alert" id="student_success">
+  Form submitted successfully!
+</div>
+<div class="alert alert-danger" role="alert" id="student_error">
+Form not submitted successfully!
+</div>
+
+
 </div><!-- End Page Title -->
 
 <section class="section">
@@ -12,9 +22,9 @@
         <div class="card-body">
             <div class="h d-flex justify-content-between align-items-center">
                 <h5 class="card-title">Student Details</h5> 
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">+Add</button>
+                <button class="btn btn-primary" id="student_modal_btn">+Add</button>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="student_modal" >
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
@@ -24,25 +34,26 @@
                     <div class="modal-body">
                     <div class="card-body">
                         <!-- <h5 class="card-title">Vertical Form</h5>  -->
-                        <form class="row g-3">
-                            <div class="col-12">
-                            <label for="inputNanme4" class="form-label"> Name</label>
-                            <input type="text" class="form-control" id="inputNanme4">
+                        <form class="row g-3" id="student-data">
+                        <div class="col-12">
+                            <input type="hidden" class="form-control" id="user_role_id" name="user_role_id" value="3">
+                            <label for="firstname" class="form-label"> First name</label>
+                            <input type="text" class="form-control" id="firs_tname"  name="first_name">
                             </div>
                             <div class="col-12">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <label for="lastname" class="form-label"> Last name</label>
+                            <input type="text" class="form-control" id="last_name"  name="last_name">
                             </div>
                             <div class="col-12">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
                             </div>
                             <div class="col-12">
-                            <label for="inputAddress" class="form-label">Confirm password</label>
-                            <input type="password" class="form-control" id="inputAddress" >
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password"  name="password">
                             </div>
                             <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" id="student_sbt" class="btn btn-primary">Submit</button>
                             <button type="reset" class="btn btn-secondary">Reset</button>
                             </div>
                         </form><!-- Vertical Form --> 
@@ -57,52 +68,18 @@
                 </div> 
             </div>
           <!-- Table with stripped rows -->
-          <table class="table datatable">
+          <table class="table  ">
             <thead>
-              <tr>
-                <th scope="col">#</th>
+            <tr>
+                <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
-                <th scope="col">Position</th>
-                <th scope="col">Age</th>
-                <th scope="col">Start Date</th>
+                <th scope="col">Email</th>
+                <th scope="col">Joining Date</th>
+                <th scope="col" class="">Action</th> 
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Brandon Jacob</td>
-                <td>Designer</td>
-                <td>28</td>
-                <td>2016-05-25</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Bridie Kessler</td>
-                <td>Developer</td>
-                <td>35</td>
-                <td>2014-12-05</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Ashleigh Langosh</td>
-                <td>Finance</td>
-                <td>45</td>
-                <td>2011-08-12</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Angus Grady</td>
-                <td>HR</td>
-                <td>34</td>
-                <td>2012-06-11</td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Raheem Lehner</td>
-                <td>Dynamic Division Officer</td>
-                <td>47</td>
-                <td>2011-04-19</td>
-              </tr>
+            <tbody class="student_output">
+              
             </tbody>
           </table>
           <!-- End Table with stripped rows -->

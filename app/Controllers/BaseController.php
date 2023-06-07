@@ -9,6 +9,8 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+use App\Models\Main_model;
+
 /**
  * Class BaseController
  *
@@ -47,7 +49,7 @@ abstract class BaseController extends Controller
      * Constructor.
      */
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
-    {
+    {   $this->main_model = new Main_model();
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
