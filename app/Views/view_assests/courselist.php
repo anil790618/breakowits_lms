@@ -14,116 +14,37 @@
                             <h5 class="card-title">Course Details</h5>
                         </div>
                         <div class="container">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
+                            <div class="row stu_courselist" id="stu_courselist">
+                            <?php
+                                if($category){
+                                    foreach($category as $value){ 
+                                        ?>
+                                      <div class="col-sm-6 col-md-4">
+                                            <div class="card">
+                                                <!-- <img src="<?=$value['image']?>"
+                                                    class="card-img-top" alt="..." > -->
+                                                <div class="courceimg"  style="height:200px;background:url(<?=$value['image']?>) no-repeat center top/contain;">
 
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
+                                                </div>
+                                                <div class="course-content px-4 py-3">
+                                                 <a href="<?=base_url()?>course-view/<?=$value['c_id']?>"> <h5 class="course-cat p-0 m-0"> <?php $dh = $value['c_name'];   echo substr($dh,0,18)?></h5></a> 
+                                                    <p><p href="#"><?php $dt = $value['c_desc'];   echo substr($dt,0,100)?></p></p>
+                                                    <div class="course-meta">
+                                                        <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
+                                                            Students</span>
+                                                        <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
+                                                            Lessons</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
+                                        <?php
+                                    }
+                                }
 
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
-
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
-
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
-
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="card">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wiv4BNVXdHsr7TWKfsWzBUeH0HLseeqWAQ&usqp=CAU"
-                                            class="card-img-top" alt="...">
-
-                                        <div class="course-content px-2 py-3">
-                                            <span class="course-cat">Graphic design</span>
-                                            <h4><a href="#">Information About UI/UX Design Degree</a></h4>
-                                            <div class="course-meta">
-                                                <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
-                                                    Students</span>
-                                                <span class="course-duration"><i class="bi bi-card-checklist px-2"></i>82
-                                                    Lessons</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                ?> 
                             </div>
-                        </div>
-                        <!-- Table with stripped rows -->
-                        <!-- <table class="table datatable">
-           
-          </table> -->
-                        <!-- End Table with stripped rows -->
+                        </div> 
 
                     </div>
                 </div>

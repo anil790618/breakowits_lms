@@ -2,7 +2,9 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>MaxMite</span></strong>. All Rights Reserved
+    <div class="copyright text-lg-right text-center">
+     <p>&copy; Copyright Berkowits & All Rights Reserved.Created by <a href="https://maxmites.com/">Maxmites.com</a></p>
+    </div>
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->

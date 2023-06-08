@@ -75,5 +75,14 @@ class Main_model extends Model
 		}
 	}
 
+	// public function getQueryValueInnerJoin($ltable,$rtable,){
+	// 	$query = "SELECT Orders.OrderID, Customers.CustomerName
+	// 	FROM Orders
+	// 	INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;";
+	// 		if ($query->getNumRows() > 0) 
+	// 		{
+	// 			return $query->getNumRows();
+	// 		}
+	// }
 	
 }

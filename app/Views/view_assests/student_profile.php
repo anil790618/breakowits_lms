@@ -19,8 +19,8 @@
       <div class="card">
         <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-          <img src="<?=base_url()  ?>assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-          <h2>Kevin Anderson</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Outdoors-man-portrait_%28cropped%29.jpg/220px-Outdoors-man-portrait_%28cropped%29.jpg" alt="Profile" class="rounded-circle">
+          <h2>Ramesh Sharma</h2>
           <h3>Student</h3>
           <div class="social-links mt-2">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -67,7 +67,7 @@
 
               <div class="row">
                 <div class="col-lg-3 col-md-4 label ">Full Name</div>
-                <div class="col-lg-9 col-md-8">Kevin Anderson</div>
+                <div class="col-lg-9 col-md-8">Ramesh Sharma</div>
               </div>
 
               <div class="row">

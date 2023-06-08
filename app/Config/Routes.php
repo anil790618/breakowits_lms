@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 namespace Config;
 
 // Create a new instance of our RouteCollection class.
@@ -38,12 +37,24 @@ $routes->match(['get','post'],'/signup','Home::signup',['filter'=>'noauth']);
 $routes->get('/userlist', 'Home::userlist',['filter'=>'noauth']); 
 // $routes->get('/instructor', 'Home::instructor',['filter'=>'noauth']); 
 // $routes->post('/instructor_data', 'Home::instructor_data',['filter'=>'noauth']);
+$routes->match(['get'],'dashboard_student','Home::dashboard_student'); 
+$routes->match(['get'],'instructor_dashboard','Home::instructor_dashboard'); 
 $routes->match(['get'],'instructor','Home::instructor'); 
 $routes->match(['get','post'],'instructor_data','Home::instructor_data');
 $routes->match(['get','post'],'instructor_form_data','Home::instructor_save');
+$routes->match(['get','post'],'instructor_profile','Home::instructor_profile');
 $routes->match(['get','post'],'admin_data','Home::admin_data');
 $routes->match(['get','post'],'student_data','Home::student_data');
 $routes->match(['get','post'],'student_form_data','Home::student_save');
+// $routes->match(['get','post'],'student_course_list','Home::course_cat_data');
+
+$routes->match(['get','post'],'course_cat','Home::course_cat');
+$routes->match(['get','post'],'course_cat_data','Home::course_cat_data');
+$routes->match(['get','post'],'category_form_data','Home::category_form_data');
+$routes->match(['get','post'],'course_add','Home::course_add');
+$routes->match(['get','post'],'course_list_insert','Home::course_list_insert');
+$routes->match(['get','post'],'course-view/(:num)','Home::course_view/$1');
+// $routes->match(['get','post'],'course_list_load','Home::course_list_load'); 
 
 
 

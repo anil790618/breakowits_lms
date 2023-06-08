@@ -1,0 +1,1478 @@
+INFO - 2023-06-08 04:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 05:10:04 --> mysqli_query() expects at most 3 arguments, 4 given
+in APPPATH\Views\view_assests\course_list.php on line 148.
+ 1 APPPATH\Views\view_assests\course_list.php(148): mysqli_query('localhost', 'root', '', 'learningmanagementsystem')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(253): view('view_assests/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 05:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 05:10:39 --> Undefined variable $con
+in APPPATH\Views\view_assests\course_list.php on line 149.
+ 1 APPPATH\Views\view_assests\course_list.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $con', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_list.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(253): view('view_assests/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 05:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 05:18:53 --> Unknown column 'user_role_id' in 'where clause'
+in APPPATH\Views\view_assests\course_list.php on line 132.
+ 1 APPPATH\Views\view_assests\course_list.php(132): mysqli_query(Object(mysqli), 'select c_name from course_category where user_role_id=1')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_list', [], true)
+ 5 APPPATH\Controllers\Home.php(253): view('view_assests/course_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 05:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 05:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:05:02 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:03 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:04 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:04 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:04 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:05 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:05 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:09 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:09 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:10 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:10 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:10 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:10 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:06:13 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:06:14 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:06:14 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:06:34 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:06:34 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:06:35 --> Undefined variable $base_url
+in APPPATH\Controllers\Home.php on line 267.
+ 1 APPPATH\Controllers\Home.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 267)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:09:26 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php199C.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:27 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php1CCA.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:27 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php1D96.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:27 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php1E43.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:27 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php1F1E.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:27 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php1FFA.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:28 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php220E.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:09:28 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 272)
+ 2 APPPATH\Controllers\Home.php(272): move_uploaded_file('C:\\xampp\\tmp\\php22DA.tmp', 'http://localhost/breakowits/lms/assets/course_imagesphoto-1438761681033-6461ffad8d80.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:11:43 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php3291.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:48 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4417.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:49 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php483E.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:49 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4AB0.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4BCA.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4CB6.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4D82.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4E4E.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php4F2A.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php5005.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php50D2.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php51BD.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:11:52 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_imagesRoutes.php): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php52C8.tmp', 'http://localhost/breakowits/lms/assets/course_imagesRoutes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:13:02 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php66F8.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:49 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php1F6B.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php225A.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:50 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php2336.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php2616.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:51 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php26D2.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:52 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php27AE.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:13:52 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php286A.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:19:09 --> move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(http://localhost/breakowits/lms/assets/course_images/SwitchCase.java): Failed to open stream: HTTP wrapper does not support writeable connections', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\phpF8E7.tmp', 'http://localhost/breakowits/lms/assets/course_images/SwitchCase.java')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 06:35:00 --> move_uploaded_file(./media/course/pexels-simon-robben-614810.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 270.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(./media/course/pexels-simon-robben-614810.jpg): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 270)
+ 2 APPPATH\Controllers\Home.php(270): move_uploaded_file('C:\\xampp\\tmp\\php82D5.tmp', './media/course/pexels-simon-robben-614810.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:35:31 --> Undefined variable $fname
+in APPPATH\Controllers\Home.php on line 273.
+ 1 APPPATH\Controllers\Home.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fname', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:36:03 --> Call to undefined function imagecreatefromjpeg()
+in APPPATH\Helpers\app_helper.php on line 11.
+ 1 APPPATH\Controllers\Home.php(273): image_handler('./media/course/pexels-simon-robben-614810.jpg', './media/course/thumb/pexels-simon-robben-614810.jpg', '200', '200', '85')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 06:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-08 07:02:28 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:29 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207748_71.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207748_71.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207748_71.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:02:32 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:32 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207752_57.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207752_57.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207752_57.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:02:33 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:33 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_28.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_28.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_28.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:02:33 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:33 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_47.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_47.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_47.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:02:33 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:33 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_26.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_26.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_26.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:02:33 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:02:33 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_67.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_67.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'3\', \'2\', \'how to become video creator \', \'video creater desc\', \'how,to ,video,list,\', \'good laptop or computer system\', \'999\', \'IMG_1686207753_67.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(297): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-08 07:05:12 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:05:12 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'dsafedf\', \'333\', \'IMG_1686207912_98.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'dsafedf\', \'333\', \'IMG_1686207912_98.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'dsafedf\', \'333\', \'IMG_1686207912_98.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:05:26 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:05:26 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207926_51.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207926_51.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207926_51.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:05:31 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:05:31 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207931_98.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207931_98.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207931_98.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-08 07:05:33 --> mysqli_sql_exception: Unknown column 'creator_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 07:05:33 --> Unknown column 'creator_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207933_87.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207933_87.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (\'2\', \'1\', \'defdf\', \'dsfsdf\', \'ffff\', \'this is req\', \'333\', \'IMG_1686207933_87.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `topic` (`c_id`, `creator_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `price`, `image`) VALUES (:c_id:, :creator_id:, :t_heading:, :t_desc:, :t_list:, :t_requirement:, :price:, :image:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(290): App\Models\Main_model->insert_table('topic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 07:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 07:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 08:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:29:01 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(227): view('view_assests/courselist')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:29:38 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(227): view('view_assests/courselist')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:30:04 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(227): view('view_assests/courselist')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:30:05 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(227): view('view_assests/courselist')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:31:46 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(227): view('view_assests/courselist')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:37:46 --> Undefined variable $topic
+in APPPATH\Views\view_assests\courselist.php on line 19.
+ 1 APPPATH\Views\view_assests\courselist.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topic', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(228): view('view_assests/courselist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 09:49:11 --> Call to undefined function echosubstr()
+in APPPATH\Views\view_assests\courselist.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 4 APPPATH\Controllers\Home.php(228): view('view_assests/courselist', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 09:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 09:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 10:31:14 --> Invalid file: "view_assests/new_as/c_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assests/new_as/c_header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/new_as/c_header', [], true)
+ 3 APPPATH\Controllers\Home.php(242): view('view_assests/new_as/c_header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 10:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 10:32:46 --> Invalid file: "view_assests/new_as/c_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assests/new_as/c_header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/new_as/c_header', [], true)
+ 3 APPPATH\Controllers\Home.php(242): view('view_assests/new_as/c_header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 10:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 10:32:52 --> Invalid file: "view_assests/new_as/c_header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_assests/new_as/c_header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/new_as/c_header', [], true)
+ 3 APPPATH\Controllers\Home.php(242): view('view_assests/new_as/c_header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 10:42:33 --> Call to undefined function base_url_web()
+in APPPATH\Views\new_as\c_header.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('new_as/c_header', [], true)
+ 4 APPPATH\Controllers\Home.php(242): view('new_as/c_header')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 10:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 10:42:46 --> Call to undefined function base_url_web()
+in APPPATH\Views\new_as\c_header.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('new_as/c_header', [], true)
+ 4 APPPATH\Controllers\Home.php(242): view('new_as/c_header')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 10:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 10:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:09:14 --> Undefined variable $data
+in APPPATH\Views\view_assests\course-view.php on line 2.
+ 1 APPPATH\Views\view_assests\course-view.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(244): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-08 11:29:55 --> mysqli_sql_exception: Unknown column 't_id=' in 'where clause' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(242): App\Models\Main_model->getAllRowsData('topic', '*', 't_id==1')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 11:29:55 --> Unknown column 't_id=' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `topic`
+WHERE `t_id=` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `topic`
+WHERE `t_id=` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `topic`
+WHERE `t_id=` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `topic`
+WHERE `t_id=` = 1', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(242): App\Models\Main_model->getAllRowsData('topic', '*', 't_id==1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:34:56 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 43.
+ 1 APPPATH\Views\view_assests\course-view.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:35:58 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 4.
+ 1 APPPATH\Views\view_assests\course-view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:35:59 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 4.
+ 1 APPPATH\Views\view_assests\course-view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:36:42 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 4.
+ 1 APPPATH\Views\view_assests\course-view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:36:49 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 4.
+ 1 APPPATH\Views\view_assests\course-view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:37:41 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 4.
+ 1 APPPATH\Views\view_assests\course-view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:41:20 --> Undefined array key "t_heading"
+in APPPATH\Views\view_assests\course-view.php on line 51.
+ 1 APPPATH\Views\view_assests\course-view.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_heading"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 11:53:59 --> Unsupported operand types: string / string
+in APPPATH\Views\view_assests\course-view.php on line 300.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 4 APPPATH\Controllers\Home.php(245): view('view_assests/course-view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 11:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 11:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 12:28:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\view_assests\course-view.php on line 5.
+ 1 APPPATH\Views\view_assests\course-view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(246): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 12:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 12:49:26 --> Undefined array key "image"
+in APPPATH\Controllers\Home.php on line 302.
+ 1 APPPATH\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 12:49:28 --> Undefined array key "image"
+in APPPATH\Controllers\Home.php on line 302.
+ 1 APPPATH\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 12:49:39 --> Undefined array key "image"
+in APPPATH\Controllers\Home.php on line 302.
+ 1 APPPATH\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 12:49:41 --> Undefined array key "image"
+in APPPATH\Controllers\Home.php on line 302.
+ 1 APPPATH\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 302)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 12:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 12:51:49 --> Undefined array key "image"
+in APPPATH\Controllers\Home.php on line 288.
+ 1 APPPATH\Controllers\Home.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 288)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_list_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 12:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 12:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
