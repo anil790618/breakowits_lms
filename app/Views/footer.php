@@ -30,6 +30,8 @@
   <!-- Template Main JS File -->
   <script src="<?php echo base_url();  ?>assets/js/main.js"></script>
   <script src="<?php  echo base_url();  ?>assets/js/mainAjax.js"></script> 
+  <script src="<?php  echo base_url();  ?>assets/js/course_category.js"></script> 
+  <script src="<?php  echo base_url();  ?>assets/js/course.js"></script> 
 
 </body>
 

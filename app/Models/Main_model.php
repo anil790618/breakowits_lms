@@ -84,5 +84,10 @@ class Main_model extends Model
 	// 			return $query->getNumRows();
 	// 		}
 	// }
+	function deleteTable($table, $condition)
+    { 
+        $this->db->where($condition);
+        return $this->db->delete($table);
+    }
 	
 }

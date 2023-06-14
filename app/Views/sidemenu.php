@@ -55,16 +55,27 @@
         </a>
         <ul id="components-course" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           
-          <li>
-            <a href="course_add">
-              <i class="bi bi-circle"></i><span>Add course </span> 
-            </a>
-          </li> 
+       
           <li>
             <a href="course_cat"> 
               <i class="bi bi-circle"></i><span> Course category </span>
             </a>
           </li> 
+          <li>
+          <a href="course_add">
+            <i class="bi bi-circle"></i><span> Course details </span> 
+          </a>
+        </li> 
+        <li>
+        <a href="course-module">
+          <i class="bi bi-circle"></i><span> Course module </span> 
+        </a>
+      </li> 
+      <li>
+      <a href="module-lession">
+        <i class="bi bi-circle"></i><span> Module lession </span> 
+      </a>
+    </li> 
         </ul>
      </li>
      

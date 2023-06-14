@@ -55,7 +55,7 @@ Form not submitted successfully!
                 </div> 
             </div>
           <!-- Table with stripped rows -->
-          <table class="table  ">
+          <table class="table  " id="myTable">
             <thead>
             <tr>
                 <th scope="col">S.No.</th>
@@ -64,26 +64,8 @@ Form not submitted successfully!
                 <th scope="col" class="">Action</th> 
               </tr>
             </thead>
-            <tbody class="category_output">
-            <?php
-                                if($category){
-                                    foreach($category as $value){ 
-                                        ?>
-                                        <tr> 
-                                          <td scope="row"><?=$value['c_id']?></td>
-                                            <td><?php $dh = $value['c_name'];   echo substr($dh,0,18)?></td>
-                                            <td style="width:40%"><?php $dt = $value['c_desc'];   echo substr($dt,0,100)?></td>  
-                                            <td> 
-                                            <a href="#"><button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></a>
-                                            <a href="#"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>
-                                          </td>
-                                        </tr>
-                                       
-                                        <?php
-                                    }
-                                }
-
-                                ?> 
+            <tbody id="category_output">
+           
             </tbody>
           </table>
           <!-- End Table with stripped rows -->
@@ -95,4 +77,34 @@ Form not submitted successfully!
   </div>
 </section>
 
+<!-- category edit model============================-->
+<!-- Modal -->
+<div class="modal fade" id="category_update_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Update Category</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="editcategory">
+      <!-- <form class="row g-3" id="category-data"> 
+        <div class="col-12"> 
+              <label for="c_name" class="form-label">Category</label>
+            <input type="text" class="form-control" id="c_name"  name="c_name">
+            </div>
+            <div class="col-12">
+            <label for="c_desc" class="form-label">Description</label> 
+            <textarea name="c_desc" id="c_desc"  rows="5" class="form-control"></textarea>
+            </div>
+            
+            <div class="text-center">
+            <button type="submit" id="category_sbt" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form> -->
+      </div>
+      
+    </div>
+  </div>
+</div>
 </main><!-- End #main -->

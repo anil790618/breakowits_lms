@@ -195,10 +195,47 @@ class Home extends BaseController
                 echo 0;
             }
    }
+   public function category_update_data(){
+        $data =  $this->request->getVar();  
+        // print_r($data);
+        $id= $data['c_id'];
+        
+            $result = $this->main_model->update_table('course_category',$data,"c_id=$id");
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
    public function student_save(){
         $data =  $this->request->getVar(); 
         echo $data['password']=md5($data['password']); 
             $result = $this->main_model->insert_table('tbl_users',$data);
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
+   public function course_module_save(){
+        $data =  $this->request->getVar(); 
+        // print_r($data);
+        // exit;
+            $result = $this->main_model->insert_table('course_module',$data);
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
+   public function lession_save(){
+        $data =  $this->request->getVar(); 
+        // print_r($data);
+        // exit;
+            $result = $this->main_model->insert_table('module_lession',$data);
             if($result){
                 echo 1;
             }
@@ -224,33 +261,48 @@ class Home extends BaseController
     {  
         $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
         return view('header')
-        . view('sidemenu')
+        . view('sidemenu')  
         . view('view_assests/courselist',$data)
         . view('footer');
     }
 
 // =================================course Details ==========================================
 public function course_cat()
-{    $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
+{    $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "status=1");
     
     return view('header')
     . view('sidemenu')
     . view('view_assests/course_category',$data)
     . view('footer');
 }
+public function category_delete($id){
+   // echo $id;   //del_cart
+    // $conn =mysqli_connect('localhost','root','','learningmanegementsystem');
+    $data['status']=0;
+    $data['delete'] = $this->main_model->update_table('course_category',$data,"c_id=$id");
+    return redirect()->to( base_url('course_cat') );
+
+}
 public function course_view($id) 
 {  
-     $data['topic'] = $this->main_model->getAllRowsData("topic", "*", "t_id=$id");
+     $data['topic'] = $this->main_model->getAllRowsData("topic", "*", "c_id=$id");
+     $data['module'] = $this->main_model->getAllRowsData("course_module", "*", "c_cat_id=$id");
     return view('new_as/c_header')
     . view('sidemenu')
     . view('view_assests/course-view',$data)
     . view('new_as/c_footer');
 }
-// public function course_cat_data()
-// {  
-//     $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
-//     return json_encode($data); 
-// }
+public function course_cat_data()
+{  
+    $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "status=1");
+     return json_encode($data); 
+}
+public function category_update($id)
+{  
+    // echo $id;
+    $data['updateData'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id=$id");
+     return json_encode($data); 
+}
 // category_form_data
 public function category_form_data(){
     $data =  $this->request->getVar(); 
@@ -326,6 +378,41 @@ public function course_list_insert(){
     // print_r($data);
     // exit;
    
+}
+
+
+
+public function course_module()
+{  
+    $data['module'] = $this->main_model->getAllRowsData("course_module", "id,c_cat_id,name", "id > 0");
+    $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
+      
+    return view('header')
+    . view('sidemenu')
+    . view('view_assests/course_module',$data)
+    . view('footer');
+}
+public function course_category_lession($cv)
+{  
+    // echo "hello" ;
+//     $data =  $this->request->getVar(); 
+//   echo  $cv;
+
+//   exit;
+    $data['module'] = $this->main_model->getAllRowsData("course_module", "id,c_cat_id,name", "c_cat_id=$cv");
+      
+    return json_encode($data);
+    // return $data;
+}
+public function module_lession()
+{  
+    $data['lession'] = $this->main_model->getAllRowsData("module_lession", "id,c_cat_id,m_id,name,video_url,description", "id > 0");
+    $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
+    $data['module'] = $this->main_model->getAllRowsData("course_module", "id,c_cat_id,name", "id > 0");
+    return view('header')
+    . view('sidemenu')
+    . view('view_assests/module_lession',$data)
+    . view('footer');
 }
 // =================================Logout Details ==========================================
     public function logout(){

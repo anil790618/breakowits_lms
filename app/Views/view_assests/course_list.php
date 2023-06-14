@@ -127,7 +127,8 @@
                                         <tr> 
                                             <td scope="row"><?=$val['t_id'];?></td>
                                             <td style="width:">
-                                            <?php $id =  $val['c_id'];  
+                                            <?php 
+                                            $id =  $val['c_id'];  
                                              $conn = mysqli_connect('localhost','root','','learningmanagementsystem');
                                              $sql =mysqli_query($conn,"select c_name from course_category where c_id=$id") ;
                                              if(mysqli_num_rows($sql)>0){

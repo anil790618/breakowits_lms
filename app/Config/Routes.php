@@ -54,7 +54,14 @@ $routes->match(['get','post'],'category_form_data','Home::category_form_data');
 $routes->match(['get','post'],'course_add','Home::course_add');
 $routes->match(['get','post'],'course_list_insert','Home::course_list_insert');
 $routes->match(['get','post'],'course-view/(:num)','Home::course_view/$1');
-// $routes->match(['get','post'],'course_list_load','Home::course_list_load'); 
+$routes->match(['get','post'],'category_delete/(:num)','Home::category_delete/$1');
+$routes->match(['get','post'],'category_update/(:num)','Home::category_update/$1');
+$routes->match(['get','post'],'category_update_data','Home::category_update_data'); 
+$routes->match(['get','post'],'course-module','Home::course_module');
+$routes->match(['get','post'],'course_module_save','Home::course_module_save');
+$routes->match(['get','post'],'module-lession','Home::module_lession');
+$routes->match(['get','post'],'lession_save','Home::lession_save');
+$routes->match(['get','post'],'course_category_lession/(:num)','Home::course_category_lession/$1');
 
 
 

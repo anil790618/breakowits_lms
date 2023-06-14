@@ -58,6 +58,9 @@ $session = session();
   .alert{
     display:none;
   }
+ .accordion-button:hover{
+  background-color:white !important;
+ }
 </style>
 <body>
 
