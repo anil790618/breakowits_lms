@@ -61,6 +61,9 @@ $session = session();
  .accordion-button:hover{
   background-color:white !important;
  }
+ * {cursor: pointer !important;
+ outline:none !important;
+ outline-color:transparent !important}
 </style>
 <body>
 

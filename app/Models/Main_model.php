@@ -75,15 +75,36 @@ class Main_model extends Model
 		}
 	}
 
-	// public function getQueryValueInnerJoin($ltable,$rtable,){
-	// 	$query = "SELECT Orders.OrderID, Customers.CustomerName
-	// 	FROM Orders
-	// 	INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;";
-	// 		if ($query->getNumRows() > 0) 
-	// 		{
-	// 			return $query->getNumRows();
-	// 		}
-	// }
+	public function courseInnerJoinCourseModule(){
+		$query = "SELECT   id,c_cat_id,name,c_name
+		FROM course_module
+		INNER JOIN course_category
+		ON course_module.c_cat_id = course_category.c_id where course_module.deleted_status=1;";
+			$query = $this->db->query($query);
+			if ($query->getNumRows() > 0) 
+			{
+				return $query->getResultArray();
+			}
+	}
+	public function user_topic_course_category_innerjoin(){
+		$query = "SELECT t_id,first_name,last_name,c_name,t_heading,t_desc,t_list,price FROM tbl_users JOIN topic ON tbl_users.user_role_id= topic.creater_id JOIN course_category ON course_category.c_id = topic.c_id where topic.course_status=1";
+			$query = $this->db->query($query);
+			if ($query->getNumRows() > 0) 
+			{
+				return $query->getResultArray();
+			}
+	}
+	public function innerJoinTable(){
+		$query = "SELECT id,name,c_name
+		FROM course_module
+		INNER JOIN course_category
+		ON course_module.c_cat_id = course_category.c_id;";
+			$query = $this->db->query($query);
+			if ($query->getNumRows() > 0) 
+			{
+				return $query->getResultArray();
+			}
+	}
 	function deleteTable($table, $condition)
     { 
         $this->db->where($condition);

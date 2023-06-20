@@ -30,6 +30,7 @@
   <!-- Template Main JS File -->
   <script src="<?php echo base_url();  ?>assets/js/main.js"></script>
   <script src="<?php  echo base_url();  ?>assets/js/mainAjax.js"></script> 
+  <script src="<?php  echo base_url();  ?>assets/js/course_details.js"></script> 
 
      <!-- <script src="assets/vendors/jquery/jquery.js"></script> -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

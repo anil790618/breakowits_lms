@@ -8,7 +8,7 @@
         $session = session();
       if($session->get('userid')==1){
         echo ' <li class="nav-item">
-        <a class="nav-link " href="dashboard">
+        <a class="nav-link " href="'.base_url().'dashboard">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -19,7 +19,7 @@
         </a>
         <ul id="components-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="userlist">
+            <a href="'.base_url().'userlist">
               <i class="bi bi-circle"></i><span>Admin List</span>
             </a>
           </li> 
@@ -31,7 +31,7 @@
         </a>
         <ul id="components-nav2" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="instructor">
+            <a href="'.base_url().'instructor">
               <i class="bi bi-circle"></i><span>Instructor Manage</span>
             </a>
           </li> 
@@ -43,7 +43,7 @@
         </a>
         <ul id="components-stu" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="student">
+            <a href="'.base_url().'student">
               <i class="bi bi-circle"></i><span>Students Manage</span>
             </a>
           </li> 
@@ -57,22 +57,22 @@
           
        
           <li>
-            <a href="course_cat"> 
+            <a href="'.base_url().'course_cat"> 
               <i class="bi bi-circle"></i><span> Course category </span>
             </a>
           </li> 
           <li>
-          <a href="course_add">
+          <a href="'.base_url().'course_add">
             <i class="bi bi-circle"></i><span> Course details </span> 
           </a>
         </li> 
         <li>
-        <a href="course-module">
+        <a href="'.base_url().'course-module">
           <i class="bi bi-circle"></i><span> Course module </span> 
         </a>
       </li> 
       <li>
-      <a href="module-lession">
+      <a href="'.base_url().'module-lession">
         <i class="bi bi-circle"></i><span> Module lession </span> 
       </a>
     </li> 
@@ -96,7 +96,7 @@
         </a>
         <ul id="components-stu" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="student">
+            <a href="'.base_url().'student">
               <i class="bi bi-circle"></i><span>Students Manage</span>
             </a>
           </li> 
@@ -109,7 +109,7 @@
         <ul id="components-course" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           
           <li>
-            <a href="course_add">
+            <a href="'.base_url().'course_add">
               <i class="bi bi-circle"></i><span>Add course </span> 
             </a>
           </li> 

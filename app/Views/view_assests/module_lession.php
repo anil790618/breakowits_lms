@@ -95,8 +95,8 @@ Form not submitted successfully!
                 <th scope="col">Module</th>
                 <th scope="col">lession</th>
                 <th scope="col">Description</th>
-                <th scope="col">Video</th>
-                <th scope="col" class="">Action</th> 
+                <th scope="col" >Video</th>
+                <!-- <th scope="col" class="">Action</th>  -->
               </tr>
             </thead>
             <tbody class=" ">
@@ -132,11 +132,11 @@ Form not submitted successfully!
                          ?></td> 
                          <td><?php echo $vaue['name'] ?></td> 
                          <td><?php echo $vaue['description'] ?></td> 
-                         <td><?php echo $vaue['video_url'] ?></td> 
-                         <td> 
+                         <td style="width:10%"><?php echo $vaue['video_url'] ?></td> 
+                         <!-- <td> 
                           <a href="#"><button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></a>
                           <a href="#"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>
-                         </td>
+                         </td> -->
                          </tr>
 
                          <?php

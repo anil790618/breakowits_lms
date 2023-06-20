@@ -1,7 +1,7 @@
 <main id="main" class="main">
 
     <div class="pagetitle">
-        <h1>Data Tables</h1>
+        <!-- <h1>Data Tables</h1> -->
         <!-- form submit status  -->
         <!-- <div class="alert " id="form_submit_status" role="alert"> -->
         <div class="alert alert-success" role="alert" id="c-success">
@@ -115,56 +115,14 @@
                                     <th scope="col">Created by</th>
                                     <th scope="col">Topic</th>
                                     <th scope="col">price</th>
-                                    <th scope="col">image</th>
+                                    <!-- <th scope="col">image</th> -->
                                     <th scope="col" class="">Action</th>
                                 </tr>
                             </thead>
                             <tbody class="course_list_output">
-                                <?php
-                                if($topic){
-                                    foreach($topic as $val){ 
-                                        ?>
-                                        <tr> 
-                                            <td scope="row"><?=$val['t_id'];?></td>
-                                            <td style="width:">
-                                            <?php 
-                                            $id =  $val['c_id'];  
-                                             $conn = mysqli_connect('localhost','root','','learningmanagementsystem');
-                                             $sql =mysqli_query($conn,"select c_name from course_category where c_id=$id") ;
-                                             if(mysqli_num_rows($sql)>0){
-                                                while($row = mysqli_fetch_assoc($sql)){
-                                                    // print_r($row);
-                                                    echo $row['c_name'];
-                                                }
-                                             } 
-                                            ?>
-                                            </td>  
-                                            <td style="width:"><?php
-                                            $id =  $val['creater_id'];  
-                                            $conn = mysqli_connect('localhost','root','','learningmanagementsystem');
-                                            $sql =mysqli_query($conn,"select first_name,last_name from tbl_users where id=$id") ;
-                                            if(mysqli_num_rows($sql)>0){
-                                               while($row = mysqli_fetch_assoc($sql)){
-                                                   // print_r($row);
-                                                   echo $row['first_name']." ". $row['last_name'];
-                                               }
-                                            } 
-                                            ?></td>  
-                                            <td style="width:30%"><?=$val['t_heading'];?></td>  
-                                            <td style="width:"><?=$val['price'];?></td>  
-                                            <td style="width:">
-                                        <img src="<?=base_url()."media/course/thumb/".$val['image'];?>" alt=""></td>  
-                                            <td> 
-                                            <a href="#"><button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></a>
-                                            <a href="#"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>
-                                            </td>
-                                      </tr>
-                                        
-                                        <?php
-                                    }
-                                }
+                               
 
-                                ?>
+                            
                             </tbody>
                         </table>
                        
@@ -175,6 +133,21 @@
 
             </div>
         </div>
+        <!-- Modal -->
+<div class="modal fade" id="update_course_modal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="editcourse">
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
     </section>
 
 </main><!-- End #main -->

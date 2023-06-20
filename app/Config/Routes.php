@@ -35,8 +35,6 @@ $routes->get('/signup', 'Home::signup',['filter'=>'noauth']);
 $routes->get('dashboard', 'Home::dashboard',['filter'=>'noauth']);
 $routes->match(['get','post'],'/signup','Home::signup',['filter'=>'noauth']);
 $routes->get('/userlist', 'Home::userlist',['filter'=>'noauth']); 
-// $routes->get('/instructor', 'Home::instructor',['filter'=>'noauth']); 
-// $routes->post('/instructor_data', 'Home::instructor_data',['filter'=>'noauth']);
 $routes->match(['get'],'dashboard_student','Home::dashboard_student'); 
 $routes->match(['get'],'instructor_dashboard','Home::instructor_dashboard'); 
 $routes->match(['get'],'instructor','Home::instructor'); 
@@ -45,23 +43,46 @@ $routes->match(['get','post'],'instructor_form_data','Home::instructor_save');
 $routes->match(['get','post'],'instructor_profile','Home::instructor_profile');
 $routes->match(['get','post'],'admin_data','Home::admin_data');
 $routes->match(['get','post'],'student_data','Home::student_data');
-$routes->match(['get','post'],'student_form_data','Home::student_save');
-// $routes->match(['get','post'],'student_course_list','Home::course_cat_data');
+$routes->match(['get','post'],'student_form_data','Home::student_save'); 
 
 $routes->match(['get','post'],'course_cat','Home::course_cat');
 $routes->match(['get','post'],'course_cat_data','Home::course_cat_data');
 $routes->match(['get','post'],'category_form_data','Home::category_form_data');
 $routes->match(['get','post'],'course_add','Home::course_add');
+$routes->match(['get','post'],'course_list_load','Home::course_list_load');
+$routes->match(['get','post'],'course_details/(:num)','Home::course_details/$1');
 $routes->match(['get','post'],'course_list_insert','Home::course_list_insert');
 $routes->match(['get','post'],'course-view/(:num)','Home::course_view/$1');
+$routes->match(['get','post'],'course_update_data','Home::course_update_data'); 
+$routes->match(['get','post'],'course_delete/(:num)','Home::course_delete/$1');
+$routes->match(['get','post'],'course_update/(:num)','Home::course_update/$1');
+$routes->match(['get','post'],'course-module','Home::course_module');
+$routes->match(['get','post'],'course_module_load','Home::course_module_load');
+$routes->match(['get','post'],'course_module_save','Home::course_module_save');
+$routes->match(['get','post'],'module_update_show/(:num)','Home::module_update_show/$1');
+$routes->match(['get','post'],'module_update_data','Home::module_update_data');
+$routes->match(['get','post'],'course_category_lession/(:num)','Home::course_category_lession/$1');
+$routes->match(['get','post'],'heading_and_desc/(:num)','Home::heading_and_desc/$1');
+$routes->match(['get','post'],'details_module_view/(:num)','Home::details_module_view/$1');
+$routes->match(['get','post'],'heading_desc_update','Home::heading_desc_update');
+$routes->match(['get','post'],'what_you_learn_list_update','Home::what_you_learn_list_update');
+$routes->match(['get','post'],'course_module_form_update','Home::course_module_form_update');
+$routes->match(['get','post'],'details_lession_view/(:num)','Home::details_lession_view/$1');
+$routes->match(['get','post'],'details_lession_update','Home::details_lession_update');
+$routes->match(['get','post'],'details_add_module','Home::details_add_module');
+$routes->match(['get','post'],'details_add_lession_save','Home::details_add_lession_save');
+$routes->match(['get','post'],'lession/(:num)','Home::lession/$1');
+
 $routes->match(['get','post'],'category_delete/(:num)','Home::category_delete/$1');
 $routes->match(['get','post'],'category_update/(:num)','Home::category_update/$1');
 $routes->match(['get','post'],'category_update_data','Home::category_update_data'); 
-$routes->match(['get','post'],'course-module','Home::course_module');
-$routes->match(['get','post'],'course_module_save','Home::course_module_save');
+
+
+$routes->match(['get','post'],'module_delete/(:num)','Home::module_delete/$1'); 
 $routes->match(['get','post'],'module-lession','Home::module_lession');
 $routes->match(['get','post'],'lession_save','Home::lession_save');
-$routes->match(['get','post'],'course_category_lession/(:num)','Home::course_category_lession/$1');
+$routes->match(['get','post'],'autoload_data','Home::autoload_data');
+
 
 
 

@@ -1,7 +1,7 @@
 <main id="main" class="main">
 
 <div class="pagetitle">
-  <h1>Data Tables</h1> 
+  <!-- <h1>Data Tables</h1>  -->
   <!-- form submit status  -->
   <!-- <div class="alert " id="form_submit_status" role="alert"> -->
   <div class="alert alert-success" role="alert" id="c-success">
