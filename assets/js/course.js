@@ -18,18 +18,18 @@ console.log("course _added")
                 let clist = "";
                 let i = 1;
                 $.each(res.topic_join, (key, value) => {
-                    console.log(value);
-                    console.log(value.c_id);
+                    // console.log(value);
+                    // console.log(value.c_id);
                     // console.log(res.creator);
                     // if(value.c_id == )
-                    let c_id = value.c_id;
+                    // let c_id = value.c_id;
+                    // alert(value.c_id)<?=base_url()?>media/course/thumb/<?=$image?>     <td style="width:">${value.image}</td>   
                     let id = value.t_id;
                     
                     clist += `<tr> <td scope="row">${i}</td>
-                    <td style="width:">${value.c_name}</td>  
-                    <td style="width:">${value.first_name} ${value.last_name}</td>  
                     <td style="width:30%">${value.t_heading}</td>  
-                    <td style="width:">${value.price}</td>   
+                    <td style="width:">${value.c_name}</td>   
+                    <td style="width:">${value.price}</td>  
                      <td style="width:15%"> 
                      <a href="course_details/${id}">  <button class="btn btn-info course_update1"   ><i class="bi bi-pencil-square"></i></button> </a> 
                     <a href="course_delete/${id}"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>

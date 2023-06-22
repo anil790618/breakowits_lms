@@ -63,6 +63,16 @@ class Home extends BaseController
         }
         return view('index');
     }
+
+
+    // student login details 
+    public function studentLogin()
+    {
+        if($this->request->getMethod()=='post'){
+        //   echo "form submitted";
+        }
+        return view('index');
+    }
     // public function login(){
     //     if($this->request->getMethod()=='post'){
     //         $email = $this->input->post('username');
@@ -162,6 +172,13 @@ class Home extends BaseController
         . view('view_assests/instructor',$data)
         . view('footer');
     }
+    public function mcq_quiz()
+    {   
+        return view('header')
+        . view('sidemenu')
+        . view('view_assests/mcq_quiz')
+        . view('footer');
+    }
     public function instructor_data()
     {   
             $data['instructor'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 2");
@@ -179,7 +196,7 @@ class Home extends BaseController
     }
     public function student_data()
     {   
-            $data['student'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 3");
+            $data['student'] = $this->main_model->getAllRowsData("student", "id,user_role_id,name,email,phone,address", "user_role_id = 3");
            
              return json_encode($data); 
     
@@ -209,11 +226,20 @@ class Home extends BaseController
    public function what_you_learn_list_update(){
         $data =  $this->request->getVar();    
         $id= $data['t_id'];
-        print_r($data);
-        // echo "form data";
-        // exit;
-        
-            $result = $this->main_model->update_table('topic',$data,"t_id=$id");
+        print_r($data); 
+            $result = $this->main_model->update_table('course',$data,"t_id=$id");
+            if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+   }
+   public function details_Requirements_update(){
+        $data =  $this->request->getVar();    
+        $id= $data['t_id'];
+        print_r($data); 
+            $result = $this->main_model->update_table('course',$data,"t_id=$id");
             if($result){
                 echo 1;
             }
@@ -224,7 +250,7 @@ class Home extends BaseController
    public function heading_desc_update(){
         $data =  $this->request->getVar();   
         $id= $data['t_id']; 
-            $result = $this->main_model->update_table('topic',$data,"t_id=$id");
+            $result = $this->main_model->update_table('course',$data,"t_id=$id");
             if($result){
                 echo 1;
             }
@@ -238,7 +264,7 @@ class Home extends BaseController
         // exit;
         $id= $data['c_id'];
         
-            $result = $this->main_model->update_table('topic',$data,"t_id=$id");
+            $result = $this->main_model->update_table('course',$data,"t_id=$id");
             if($result){
                 echo 1;
             }
@@ -263,7 +289,8 @@ class Home extends BaseController
    public function course_module_form_update(){
         $data =  $this->request->getVar();  
         $id= $data['id'];  
-            $result = $this->main_model->update_table('course_module',$data,"id=$id");
+        print_r($data);
+            $result = $this->main_model->update_table('module',$data,"id=$id");
             if($result){
                 echo 1;
             }
@@ -284,15 +311,15 @@ class Home extends BaseController
    }
    public function course_update($uid){
         // echo $id;
-    $data['updateData'] = $this->main_model->getAllRowsData("topic", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `image`, `price`, `created_at`", "t_id=$uid");
+    $data['updateData'] = $this->main_model->getAllRowsData("course", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `image`, `price`, `created_at`", "t_id=$uid");
     return json_encode($data); 
    }
    public function heading_and_desc($uid){ 
-    $data['topic'] = $this->main_model->getAllRowsData("topic", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`", "t_id=$uid");
+    $data['topic'] = $this->main_model->getAllRowsData("course", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`", "t_id=$uid");
     return json_encode($data); 
    }
    public function details_module_view($uid){ 
-    $data['topic1'] = $this->main_model->getAllRowsData("course_module", "`id`,`c_cat_id`, `name`", "id=$uid");
+    $data['topic1'] = $this->main_model->getAllRowsData("module", "`id`,`t_id`, `name`", "id=$uid");
     return json_encode($data); 
    }
    public function details_lession_view($uid){ 
@@ -336,7 +363,8 @@ class Home extends BaseController
    }
    public function details_add_module(){
         $data =  $this->request->getVar();  
-            $result = $this->main_model->insert_table('course_module',$data);
+        print_r($data);
+            $result = $this->main_model->insert_table('module',$data);
             if($result){
                 echo 1;
             }
@@ -356,6 +384,35 @@ class Home extends BaseController
                 echo 0;
             }
    }
+   public function category_details_save(){
+    $data =  $this->request->getVar(); 
+    $data['image'] = $_FILES['image']['name'];
+    print_r($data);
+    $folder ="./media/course/";  
+    $fname = $_FILES['image']['name'];
+    $file_path = $_FILES['image']['tmp_name'];
+    
+    $ext = strtolower(pathinfo($fname, PATHINFO_EXTENSION));
+
+    $file_name = "IMG_".time()."_".rand(11,99).".".$ext;
+
+    if(move_uploaded_file($file_path,$folder.$file_name)){
+        // echo "file uploaded";
+
+        image_handler('./media/course/'.$file_name, './media/course/thumb/'.$file_name, "200", "200", "85");
+
+        $data['image']= $file_name ;
+        $result = $this->main_model->insert_table('course',$data);
+        if($result){
+            echo 1;
+        }
+        else{
+            echo 0;
+        }
+    }else{
+        echo "file not uploaded";
+    }
+   }
     public function student()
     {  
         return view('header')
@@ -372,7 +429,7 @@ class Home extends BaseController
     }
     public function courselist()
     {  
-        $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
+        $data['category'] = $this->main_model->getAllRowsData("course", "*", "t_id > 0");
         return view('header')
         . view('sidemenu')  
         . view('view_assests/courselist',$data)
@@ -396,23 +453,24 @@ public function category_delete($id){
 }
 public function course_delete($id){ 
     $data['course_status']=0;
-    $data['delete'] = $this->main_model->update_table('topic',$data,"t_id=$id");
+    $data['delete'] = $this->main_model->update_table('course',$data,"t_id=$id");
     return redirect()->to( base_url('course_add') );
     
 }
 public function module_delete($id){ 
     $data['deleted_status']=0;
     $data['delete'] = $this->main_model->update_table('course_module',$data,"id=$id");
-    return redirect()->to( base_url('course-module') );
+    return redirect()->to( base_url('course-subcategory') );
 
 }
  
 public function course_view($id) 
 {  
-     $data['topic'] = $this->main_model->getAllRowsData("topic", "*", "c_id=$id");
-     $data['module'] = $this->main_model->getAllRowsData("course_module", "*", "c_cat_id=$id");
-     $data['moduel_count'] = $this->main_model->getNumRow("course_module", "*", "c_cat_id=$id");
-    $data['lession_count'] = $this->main_model->getNumRow("module_lession", "*", "c_cat_id=$id");
+    $data['topic'] = $this->main_model->getAllRowsData("course", "*", "t_id=$id");
+    $data['module'] = $this->main_model->getAllRowsData("module", "*", "t_id=$id");
+    $data['moduel_count'] = $this->main_model->getNumRow("module", "*", "t_id=$id");
+    $data['lession_count'] = $this->main_model->getNumRow("module", "*", "t_id=$id");
+    $data['stu_count'] = $this->main_model->getNumRow("student", "*", "id>0");
     return view('new_as/c_header')
     . view('sidemenu')
     . view('view_assests/course-view',$data)
@@ -423,6 +481,11 @@ public function course_cat_data()
     $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "status=1");
      return json_encode($data); 
 }
+public function category_details_select($id)
+{   
+    $data['cat_details'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id=$id and status=1");
+     return json_encode($data); 
+}
 public function category_update($id)
 {  
     // echo $id;
@@ -431,27 +494,49 @@ public function category_update($id)
 }
 // category_form_data
 public function category_form_data(){
-    $data =  $this->request->getVar(); 
-        $result = $this->main_model->insert_table('course_category',$data);
-        if($result){
-            echo 1;
-        }
-        else{
-            echo 0;
-        }
+    $data =  $this->request->getVar();  
+    $result = $this->main_model->insert_table('course_category',$data);
+    if($result){
+                echo 1;
+            }
+            else{
+                echo 0;
+            }
+// $data['image'] = $_FILES['image']['name'];
+// print_r($data); 
+// $folder ="./media/course/";  
+// $fname = $_FILES['image']['name'];
+// $file_path = $_FILES['image']['tmp_name'];
+
+// $ext = strtolower(pathinfo($fname, PATHINFO_EXTENSION));
+
+// $file_name = "IMG_".time()."_".rand(11,99).".".$ext;
+
+// if(move_uploaded_file($file_path,$folder.$file_name)){
+//     // echo "file uploaded";
+
+//     image_handler('./media/course/'.$file_name, './media/course/thumb/'.$file_name, "200", "200", "85");
+
+//     $data['image']= $file_name ;
+//     $result = $this->main_model->insert_table('course_category',$data);
+//     if($result){
+//         echo 1;
+//     }
+//     else{
+//         echo 0;
+//     }
+// }else{
+//     echo "file not uploaded";
+// }
+ 
 }
 
-
-// public function lession($uid){ 
-//     $data['lession'] = $this->main_model->getAllRowsData("module_lession", "`id`,`name`, `description`,`video_url`", "id=$uid");
-//     return json_encode($data); 
-//    }
-// course_add
+ 
 public function course_add()
 {   
     $data['creator'] = $this->main_model->getAllRowsData("tbl_users", "id,user_role_id,first_name,last_name,email", "user_role_id = 1 or user_role_id = 2");
     $data['category'] = $this->main_model->getAllRowsData("course_category", "c_id,c_name,c_desc,image", "c_id > 0");
-    $data['topic'] = $this->main_model->getAllRowsData("topic", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `image`, `price`, `created_at`", "t_id > 0");
+    $data['topic'] = $this->main_model->getAllRowsData("course", "`t_id`, `c_id`, `creater_id`, `t_heading`, `t_desc`, `t_list`, `t_requirement`, `image`, `price`, `created_at`", "t_id > 0");
     
     return view('header')
     . view('sidemenu')
@@ -460,10 +545,11 @@ public function course_add()
 }
 public function course_details($id)
 {   
-    $data['topic'] = $this->main_model->getAllRowsData("topic", "*", "c_id=$id");
-    $data['module'] = $this->main_model->getAllRowsData("course_module", "*", "c_cat_id=$id");
-    $data['moduel_count'] = $this->main_model->getNumRow("course_module", "*", "c_cat_id=$id");
-    $data['lession_count'] = $this->main_model->getNumRow("module_lession", "*", "c_cat_id=$id");
+    $data['topic'] = $this->main_model->getAllRowsData("course", "*", "t_id=$id");
+    $data['module'] = $this->main_model->getAllRowsData("module", "*", "t_id=$id");
+    $data['moduel_count'] = $this->main_model->getNumRow("module", "*", "t_id=$id");
+    $data['lession_count'] = $this->main_model->getNumRow("module", "*", "t_id=$id");
+    $data['stu_count'] = $this->main_model->getNumRow("student", "*", "id>0");
 
     // print_r($data);
    return view('new_as/c_header')
@@ -518,7 +604,7 @@ public function course_list_insert(){
         image_handler('./media/course/'.$file_name, './media/course/thumb/'.$file_name, "200", "200", "85");
 
         $data['image']= $file_name ;
-        $result = $this->main_model->insert_table('topic',$data);
+        $result = $this->main_model->insert_table('course',$data);
         if($result){
             echo 1;
         }
@@ -607,5 +693,36 @@ public function course_module_load()
 //     //   print_r($data);
 //     return json_encode($data);
 // }
+function studentRegister(){ 
+    return view('studentRegister');
+}
+// 'password'=>password_hash($this->request->getVar('password'),PASSWORD_DEFAULT),
+public function studentRegisterSave(){
+    $data =  $this->request->getVar();
+    $data['password']=password_hash( $data['password'],PASSWORD_DEFAULT);
+    // print_r($data);
+    // exit; 
+        $result = $this->main_model->insert_table('student',$data);
+        if($result){
+            echo 1;
+            return redirect()->to('studentRegister'); 
+        }
+        else{
+            echo 0;
+        }
+}
+
+
+public function quiz_data_save(){
+    $data =  $this->request->getVar();  
+print_r($data);
+        $result = $this->main_model->insert_table('quiz_question',$data);
+        if($result){
+            echo 1;
+        }
+        else{
+            echo 0;
+        }
+}
 
 }

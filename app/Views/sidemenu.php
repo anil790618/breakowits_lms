@@ -51,37 +51,39 @@
       </li> 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-course" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-person"></i><span>course</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-person"></i><span>Course</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-course" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           
-       
-          <li>
-            <a href="'.base_url().'course_cat"> 
-              <i class="bi bi-circle"></i><span> Course category </span>
-            </a>
-          </li> 
-          <li>
-          <a href="'.base_url().'course_add">
-            <i class="bi bi-circle"></i><span> Course details </span> 
-          </a>
-        </li> 
         <li>
-        <a href="'.base_url().'course-module">
-          <i class="bi bi-circle"></i><span> Course module </span> 
+        <a href="'.base_url().'course_add">
+          <i class="bi bi-circle"></i><span> Course  </span> 
         </a>
       </li> 
-      <li>
-      <a href="'.base_url().'module-lession">
-        <i class="bi bi-circle"></i><span> Module lession </span> 
-      </a>
-    </li> 
+          <li>
+            <a href="'.base_url().'course_cat"> 
+              <i class="bi bi-circle"></i><span> Category </span>
+            </a>
+          </li> 
+         
+        <li>
+        <a href="'.base_url().'course-subcategory">
+          <i class="bi bi-circle"></i><span>  Subcategory </span> 
+        </a>
+      </li> 
+    
+    
+   
         </ul>
      </li>
      
      ';
       }
-     
+     //   <li>
+    //   <a href="'.base_url().'module-lession">
+    //     <i class="bi bi-circle"></i><span> Lession </span> 
+    //   </a>
+    // </li> 
       if($session->get('userid')==2){
         echo '  <li class="nav-item">
         <a class="nav-link " href="instructor_dashboard">

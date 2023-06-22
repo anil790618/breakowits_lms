@@ -23,12 +23,12 @@
                                             <div class="card">
                                                 <!-- <img src="<?=$value['image']?>"
                                                     class="card-img-top" alt="..." > -->
-                                                <div class="courceimg"  style="height:200px;background:url(<?=$value['image']?>) no-repeat center top/contain;">
+                                                <div class="courceimg"  style="height:200px;background:url(<?=base_url()?>media/course/thumb/<?=$value['image']?>) no-repeat center top/contain;">
 
                                                 </div>
                                                 <div class="course-content px-4 py-3">
-                                                 <a href="<?=base_url()?>course-view/<?=$value['c_id']?>"> <h5 class="course-cat p-0 m-0"> <?php $dh = $value['c_name'];   echo substr($dh,0,18)?></h5></a> 
-                                                    <p><p href="#"><?php $dt = $value['c_desc'];   echo substr($dt,0,100)?></p></p>
+                                                 <a href="<?=base_url()?>course-view/<?=$value['t_id']?>"> <h5 class="course-cat p-0 m-0"> <?php $dh = $value['t_heading'];   echo substr($dh,0,50)?></h5></a> 
+                                                    <p><p href="#"><?php $dt = $value['t_desc'];   echo substr($dt,0,100)?></p></p>
                                                     <div class="course-meta">
                                                         <span class="course-student"><i class="bi bi-person-fill px-2"></i>340
                                                             Students</span>

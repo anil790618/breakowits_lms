@@ -21,14 +21,14 @@ Form not submitted successfully!
       <div class="card">
         <div class="card-body">
             <div class="h d-flex justify-content-between align-items-center">
-                <h5 class="card-title">Course module lession</h5> 
+                <h5 class="card-title" style="font-size:25px">Course Subcategory </h5> 
                 <button class="btn btn-primary" id="lession_modal_btn">+Add</button>
                 <!-- Modal -->
                 <div class="modal modal-lg fade" id="lession_modal" >
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add Lession </h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Add Subcategory </h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -36,7 +36,7 @@ Form not submitted successfully!
                         <!-- <h5 class="card-title">Vertical Form</h5>  -->
                         <form class="row g-3" id="lession_form">
                         <div class="col-6">
-                              <label for="firstname" class="form-label">Course</label>
+                            <label for="firstname" class="form-label">Course</label>
                             <select  class="form-select  mb-3" aria-label=" example" name="c_cat_id" id="c_cat_id">
                                 <option selected>Open this select menu</option>
                                 <?php
@@ -51,7 +51,7 @@ Form not submitted successfully!
                                 </select>
                             </div>
                         <div class="col-6">
-                              <label for="firstname" class="form-label">Module</label>
+                              <label for="firstname" class="form-label">Category</label>
                             <select class="form-select  mb-3" aria-label=" example" name="m_id" id="m_id">
                                 <option selected>Open this select menu</option>
                                
@@ -59,7 +59,7 @@ Form not submitted successfully!
                             </div>
                         
                             <div class="col-6">
-                            <label for="name" class="form-label">Lession </label>
+                            <label for="name" class="form-label">Subcategory </label>
                             <input type="text" class="form-control" id="name"  name="name">
                             </div>
                             <div class="col-6">
@@ -92,8 +92,8 @@ Form not submitted successfully!
             <tr>
                 <th scope="col">S.No.</th>
                 <th scope="col">Course</th>
-                <th scope="col">Module</th>
-                <th scope="col">lession</th>
+                <th scope="col">Category</th>
+                <th scope="col">Subcategory</th>
                 <th scope="col">Description</th>
                 <th scope="col" >Video</th>
                 <!-- <th scope="col" class="">Action</th>  -->
@@ -131,8 +131,8 @@ Form not submitted successfully!
                          
                          ?></td> 
                          <td><?php echo $vaue['name'] ?></td> 
-                         <td><?php echo $vaue['description'] ?></td> 
-                         <td style="width:10%"><?php echo $vaue['video_url'] ?></td> 
+                         <td><?php echo substr($vaue['description'],0,50);  ?>..</td> 
+                         <td style="width:10%"><?php echo  substr($vaue['video_url'],0,25);  ?></td> 
                          <!-- <td> 
                           <a href="#"><button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></a>
                           <a href="#"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>

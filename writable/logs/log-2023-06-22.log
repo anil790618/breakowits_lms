@@ -1,0 +1,1457 @@
+INFO - 2023-06-22 04:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 04:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 05:01:25 --> Undefined variable $price
+in APPPATH\Views\view_assests\course_details.php on line 612.
+ 1 APPPATH\Views\view_assests\course_details.php(612): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php', 612)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_details', [], true)
+ 5 APPPATH\Controllers\Home.php(538): view('view_assests/course_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_details('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 05:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 05:03:38 --> Division by zero
+in APPPATH\Views\view_assests\course_details.php on line 405.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_details', [], true)
+ 4 APPPATH\Controllers\Home.php(538): view('view_assests/course_details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_details('20')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 05:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 05:39:49 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 295.
+ 1 APPPATH\Controllers\Home.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 295)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_lession_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 05:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 05:40:19 --> mysqli_sql_exception: Duplicate entry '19' for key 'PRIMARY' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(371): App\Models\Main_model->insert_table('module_lession', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_add_lession_save()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 05:40:19 --> Duplicate entry '19' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (:id:, :name:, :video_url:, :description:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(371): App\Models\Main_model->insert_table('module_lession', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_add_lession_save()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 05:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 05:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 06:12:53 --> Undefined variable $value
+in APPPATH\Views\view_assests\course_details.php on line 421.
+ 1 APPPATH\Views\view_assests\course_details.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php', 421)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_details', [], true)
+ 5 APPPATH\Controllers\Home.php(548): view('view_assests/course_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_details('22')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 06:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 06:19:05 --> Undefined variable $value
+in APPPATH\Views\view_assests\course_details.php on line 421.
+ 1 APPPATH\Views\view_assests\course_details.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php', 421)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course_details', [], true)
+ 5 APPPATH\Controllers\Home.php(548): view('view_assests/course_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_details('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:09:59 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:09:59 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 07:10:01 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:10:01 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:10:54 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:10:54 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:20:06 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:20:06 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:21:44 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:21:44 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:22:20 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=16')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('16')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:22:20 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 16', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 16')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 16')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 16', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=16')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('16')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:28:43 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:28:43 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:30:22 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:30:22 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:31:43 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:31:43 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 07:32:18 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:32:18 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:34:38 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:34:38 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:34:57 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:34:57 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:35:05 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:35:05 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 07:35:17 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`...', 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:35:17 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `c_cat_id`, `name`
+FROM `module`
+WHERE `id` = 15', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(314): App\Models\Main_model->getAllRowsData('module', '`id`,`c_cat_id`, `name`', 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_module_view('15')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:41:30 --> mysqli_sql_exception: Duplicate entry '19' for key 'PRIMARY' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(371): App\Models\Main_model->insert_table('module_lession', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_add_lession_save()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:41:30 --> Duplicate entry '19' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss1\', \'\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss1\', \'\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (\'19\', \'Ramsss1\', \'\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module_lession` (`id`, `name`, `video_url`, `description`) VALUES (:id:, :name:, :video_url:, :description:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(371): App\Models\Main_model->insert_table('module_lession', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_add_lession_save()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:42:52 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module`...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module`...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module`...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module`...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(285): App\Models\Main_model->update_table('module', Array, 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:42:52 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module` SET `id` = :id:, `c_cat_id` = :c_cat_id:, `name` = :name:
+WHERE `id` = 15', [...], false)
+ 5 APPPATH\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Home.php(285): App\Models\Main_model->update_table('module', [...], 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-22 07:42:53 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module`...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module`...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module`...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module`...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(285): App\Models\Main_model->update_table('module', Array, 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:42:53 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module` SET `id` = :id:, `c_cat_id` = :c_cat_id:, `name` = :name:
+WHERE `id` = 15', [...], false)
+ 5 APPPATH\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Home.php(285): App\Models\Main_model->update_table('module', [...], 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 07:43:26 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:27 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:28 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:28 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:28 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:43:29 --> Undefined array key "t_id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 07:45:53 --> mysqli_sql_exception: Unknown column 'c_cat_id' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module`...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module`...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module`...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module`...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(286): App\Models\Main_model->update_table('module', Array, 'id=15')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 07:45:53 --> Unknown column 'c_cat_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `module` SET `id` = \'15\', `c_cat_id` = \'20\', `name` = \'test12\'
+WHERE `id` = 15')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `module` SET `id` = :id:, `c_cat_id` = :c_cat_id:, `name` = :name:
+WHERE `id` = 15', [...], false)
+ 5 APPPATH\Models\Main_model.php(20): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Home.php(286): App\Models\Main_model->update_table('module', [...], 'id=15')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 07:46:23 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 07:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 07:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 09:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 09:36:41 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 284.
+ 1 APPPATH\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_module_form_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 10:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 10:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 10:55:39 --> mysqli_sql_exception: Unknown column 'question' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(360): App\Models\Main_model->insert_table('module', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_add_module()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-22 10:55:39 --> mysqli_sql_exception: Unknown column 'question' in 'field list' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mo...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mo...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mo...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mo...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(360): App\Models\Main_model->insert_table('module', Array)
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->details_add_module()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 10:55:39 --> Unknown column 'question' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`t_id`, `question`) VALUES (:t_id:, :question:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(360): App\Models\Main_model->insert_table('module', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_add_module()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-22 10:55:39 --> Unknown column 'question' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `module` (`t_id`, `question`) VALUES (\'20\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `module` (`t_id`, `question`) VALUES (:t_id:, :question:)', [...], false)
+ 5 APPPATH\Models\Main_model.php(8): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(360): App\Models\Main_model->insert_table('module', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_add_module()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:30:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in APPPATH\Views\view_assests\course-view.php on line 71.
+ 1 APPPATH\Views\view_assests\course-view.php(71): mysqli_query(Object(mysqli), 'select * from tbl_users where id=')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('24')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:30:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in APPPATH\Views\view_assests\course-view.php on line 71.
+ 1 APPPATH\Views\view_assests\course-view.php(71): mysqli_query(Object(mysqli), 'select * from tbl_users where id=')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('30')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:30:30 --> Unknown column 'm_id' in 'where clause'
+in APPPATH\Views\view_assests\course-view.php on line 124.
+ 1 APPPATH\Views\view_assests\course-view.php(124): mysqli_query(Object(mysqli), 'select id,name,video_url from module_lession where m_id=15')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 11:33:27 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->courselist()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 11:33:27 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `course`
+WHERE `id` >0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id` >0', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:34:10 --> Undefined array key "c_name"
+in APPPATH\Views\view_assests\courselist.php on line 30.
+ 1 APPPATH\Views\view_assests\courselist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(428): view('view_assests/courselist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:36:48 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\view_assests\course-view.php on line 108.
+ 1 APPPATH\Views\view_assests\course-view.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:37:04 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\view_assests\course-view.php on line 108.
+ 1 APPPATH\Views\view_assests\course-view.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:39:00 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\view_assests\course-view.php on line 108.
+ 1 APPPATH\Views\view_assests\course-view.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:39:01 --> Undefined array key "c_name"
+in APPPATH\Views\view_assests\courselist.php on line 30.
+ 1 APPPATH\Views\view_assests\courselist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(428): view('view_assests/courselist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:39:02 --> Undefined array key "c_name"
+in APPPATH\Views\view_assests\courselist.php on line 30.
+ 1 APPPATH\Views\view_assests\courselist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(428): view('view_assests/courselist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:39:06 --> Undefined array key "c_name"
+in APPPATH\Views\view_assests\courselist.php on line 30.
+ 1 APPPATH\Views\view_assests\courselist.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\courselist.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/courselist', [], true)
+ 5 APPPATH\Controllers\Home.php(428): view('view_assests/courselist', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 11:42:33 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->courselist()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 11:42:33 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `course`
+WHERE `id` >0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id` >0', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-22 11:42:41 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\breakowits\lms\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\breakowits\lms\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\breakowits\lms\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\breakowits\lms\app\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\breakowits\lms\app\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+#6 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(934): App\Controllers\Home->courselist()
+#7 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\breakowits\lms\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\breakowits\lms\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-22 11:42:41 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `course`
+WHERE `id` >0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `course`
+WHERE `id` >0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `course`
+WHERE `id` >0', [], false)
+ 5 APPPATH\Models\Main_model.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(425): App\Models\Main_model->getAllRowsData('course', '*', 'id > 0')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->courselist()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:43:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\view_assests\course-view.php on line 108.
+ 1 APPPATH\Views\view_assests\course-view.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 11:45:46 --> Undefined variable $stu_count
+in APPPATH\Views\view_assests\course-view.php on line 98.
+ 1 APPPATH\Views\view_assests\course-view.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stu_count', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(468): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 11:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 11:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:03:33 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 521.
+ 1 APPPATH\Views\view_assests\course-view.php(521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 521)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:03:58 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 545.
+ 1 APPPATH\Views\view_assests\course-view.php(545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 545)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:04:11 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 569.
+ 1 APPPATH\Views\view_assests\course-view.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 569)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:04:31 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 569.
+ 1 APPPATH\Views\view_assests\course-view.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 569)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:04:35 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 569.
+ 1 APPPATH\Views\view_assests\course-view.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 569)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:04:38 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 569.
+ 1 APPPATH\Views\view_assests\course-view.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 569)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:05:04 --> Undefined variable $price
+in APPPATH\Views\view_assests\course-view.php on line 569.
+ 1 APPPATH\Views\view_assests\course-view.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 569)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(469): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:17:56 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 296.
+ 1 APPPATH\Controllers\Home.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Controllers\\Home.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->details_lession_update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:35:21 --> Unclosed '{' on line 192
+in APPPATH\Views\view_assests\course-view.php on line 651.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 3 APPPATH\Controllers\Home.php(476): view('view_assests/course-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-22 12:37:45 --> Undefined variable $l_id
+in APPPATH\Views\view_assests\course-view.php on line 194.
+ 1 APPPATH\Views\view_assests\course-view.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l_id', 'C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php', 194)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\breakowits\\lms\\app\\Views\\view_assests\\course-view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('view_assests/course-view', [], true)
+ 5 APPPATH\Controllers\Home.php(476): view('view_assests/course-view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->course_view('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-22 12:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-22 12:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

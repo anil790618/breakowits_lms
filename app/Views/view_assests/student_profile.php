@@ -22,12 +22,12 @@
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Outdoors-man-portrait_%28cropped%29.jpg/220px-Outdoors-man-portrait_%28cropped%29.jpg" alt="Profile" class="rounded-circle">
           <h2>Ramesh Sharma</h2>
           <h3>Student</h3>
-          <div class="social-links mt-2">
+          <!-- <div class="social-links mt-2">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -43,25 +43,12 @@
             <li class="nav-item">
               <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">Overview</button>
             </li>
-
-            <!-- <li class="nav-item">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-edit">Edit Profile</button>
-            </li>
-
-            <li class="nav-item">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-settings">Settings</button>
-            </li>
-
-            <li class="nav-item">
-              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Change Password</button>
-            </li> -->
-
           </ul>
           <div class="tab-content pt-2">
 
             <div class="tab-pane fade show active profile-overview" id="profile-overview">
-              <h5 class="card-title">About</h5>
-              <p class="small fst-italic">Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p>
+              <!-- <h5 class="card-title">About</h5>
+              <p class="small fst-italic">Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p> -->
 
               <h5 class="card-title">Profile Details</h5>
 
@@ -70,16 +57,7 @@
                 <div class="col-lg-9 col-md-8">Ramesh Sharma</div>
               </div>
 
-              <div class="row">
-                <div class="col-lg-3 col-md-4 label">Course Details</div>
-                <div class="col-lg-9 col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-              </div>
-
-              <!-- <div class="row">
-                <div class="col-lg-3 col-md-4 label">Job</div>
-                <div class="col-lg-9 col-md-8">Web Designer</div>
-              </div> -->
-
+             
               <div class="row">
                 <div class="col-lg-3 col-md-4 label">Country</div>
                 <div class="col-lg-9 col-md-8">India</div>

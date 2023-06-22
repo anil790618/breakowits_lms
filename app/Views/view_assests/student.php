@@ -74,6 +74,8 @@ Form not submitted successfully!
                 <th scope="col">S.No.</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Address</th>
                 <th scope="col">Joining Date</th>
                 <th scope="col" class="">Action</th> 
               </tr>

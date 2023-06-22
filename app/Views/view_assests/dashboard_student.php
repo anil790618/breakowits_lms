@@ -17,10 +17,10 @@
 
             <!-- Left side columns -->
             <div class="col-lg-12">
-                <div class="row">
+                <div class="row d-flex justify-content-between my-5">
 
                     <!-- Sales Card -->
-                    <div class="col-xxl-4 col-md-3 m-auto col-sm-6">
+                    <div class="col-xxl-4 col-md-3 col-sm-6">
                         <div class="card info-card sales-card">
                             <div class="card-body">
                                 <h5 class="card-title text-center">ENROLLED COURSES </h5>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-md-3 m-auto col-sm-6">
+                    <div class="col-xxl-4 col-md-3 col-sm-6">
                         <div class="card info-card sales-card">
                             <div class="card-body">
                                 <h5 class="card-title text-center">ACTIVE COURSES </h5>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-md-3 m-auto col-sm-6">
+                    <div class="col-xxl-4 col-md-3 col-sm-6">
                         <div class="card info-card sales-card">
                             <div class="card-body">
                                 <h5 class="card-title text-center">COMPLETED COURSES</h5>

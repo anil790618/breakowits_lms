@@ -48,6 +48,14 @@ $session = session();
   .alert{
     display:none;
   }
+  .logo{
+    transition: all .4s;
+  }
+  .btn{
+    padding :1px 5px !important;
+  }
+
+
 </style>
 <body>
 

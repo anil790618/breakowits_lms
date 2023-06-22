@@ -64,6 +64,10 @@ $session = session();
  * {cursor: pointer !important;
  outline:none !important;
  outline-color:transparent !important}
+
+ .btn-close:hover{
+     color:white !important;
+  }
 </style>
 <body>
 
@@ -79,10 +83,10 @@ $session = session();
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
+      <!-- <form class="search-form d-flex align-items-center" method="POST" action="#">
         <input type="text" name="query" placeholder="Search" title="Enter search keyword">
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-      </form>
+      </form> -->
     </div><!-- End Search Bar -->
 
     <nav class="header-nav ms-auto">

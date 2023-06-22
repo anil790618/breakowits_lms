@@ -33,6 +33,33 @@ $(document).ready(function () {
         })
     
     })
+    $(document).on('change','#c_id' ,function(){
+        // alert('hii alert');
+        let cv =  $("#c_id").find(':selected').val();
+        console.log(cv);
+        $.ajax({
+            url: base_url + `course_category_lession/${cv}`,
+            type: "post",
+            // data: {cv},
+            cache: false,
+            success: function (response) {
+                // console.log(response);
+                let res2 = JSON.parse(response);
+                console.log(res2.module.length);
+                let cat_filter = "";
+               
+                res2.module.map(value=>{
+                    console.log(value.name)
+                    cat_filter+=`<option value=${value.id}>${value.name}</option>`;
+                })
+                $('#cat_id').html(cat_filter);
+               
+
+
+            }
+        })
+    
+    })
 
     
 
@@ -41,7 +68,6 @@ $(document).ready(function () {
         // alert('hii')course_module_btn
         $(document).on("submit", '#course_module_form', function (e) {
             e.preventDefault();
-            // var data = $("#course_input_modal_form").serialize();
             $.ajax({
                 url: base_url + "course_module_save",
                 type: "post",
@@ -75,50 +101,11 @@ $(document).ready(function () {
 
     })                                                                                                                                                                                                                                                                               
 
-    $('#module_modal_btn').click(function () {
-        $('#module_modal').modal('show');
-        // alert('hii')course_module_btn
-        $(document).on("submit", '#course_module_form', function (e) {
-            e.preventDefault();
-            // var data = $("#course_input_modal_form").serialize();
-            $.ajax({
-                url: base_url + "course_module_save",
-                type: "post",
-                data: new FormData(this),
-                cache: false,
-                cache: false,
-                contentType: false,
-                processData: false,
-                success: function (response) {
-                    console.log(response);
-                    if (response != 0) {
-                        course_category_load();
-                        $('#module_modal').modal('hide');
-                        $('#c-success').show();
-                        $('#c-error').hide();
-                        setTimeout(() => {
-                            $('#c-success').slideUp();
-                        }, 3000);
-                    } else {
-                        $('#c-success').hide();
-                        $('#c-error').show();
-                        setTimeout(() => {
-                            $('#c-error').slideUp();
-                        }, 3000);
-                    }
-
-
-                }
-            })
-        })
-
-    })
     $('#lession_modal_btn').click(function () {
         $('#lession_modal').modal('show');
         // alert('hii')course_module_btn
         $(document).on("submit", '#lession_form', function (e) {
-            e.preventDefault();
-            // var data = $("#course_input_modal_form").serialize();
+            e.preventDefault(); 
             $.ajax({
                 url: base_url + "lession_save",
                 type: "post",
@@ -246,39 +233,6 @@ $(document).ready(function () {
     })
 
 
-    // ====================================== Student Details ====================================== 
-    let student_load = () => {
-        $('.table').addClass('dataTable')
-        // $('.table').dataTable();
-        $.ajax({
-            url: base_url + "student_data",
-            type: "post",
-            data: {},
-            cache: false,
-            success: function (response) {
-                let res = JSON.parse(response);
-                // console.log(res.student);
-                let opt2 = "";
-                let i = 1;
-                $.each(res.student, (key, value) => {
-                    opt2 += `<tr> <td scope="row">${i}</td><td>${value.first_name}  ${value.last_name}</td><td>${value.email}</td>    <td>2016-05-25</td> <td>
-                    <a href="#"><button class="btn btn-info"><i class="bi bi-eye-fill"></i></button></a>
-                    <a href="#"><button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></a>
-                    <a href="#"><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>
-                  </td></tr>`;
-                    i++;
-                })
-                // alert(opt)
-                $('.student_output').html(opt2);
-                // $('.dd').html(opt); 
-            }
-        })
-
-    }
-    student_load();
-
-
-
     $('#student_modal_btn').click(function () {
         $('#student_modal').modal('show');
         $(document).on("click", '#student_sbt', function (e) {
@@ -319,15 +273,17 @@ $(document).ready(function () {
 
     $('#category_modal_btn').click(function () {
         $('#category_modal').modal('show');
-        $(document).on("click", '#category_sbt', function (e) {
-            e.preventDefault();
-            var data = $("#category-data").serialize();
+        $(document).on("submit", '#category-data', function (e) {
+            e.preventDefault(); 
             $.ajax({
                 url: base_url + "category_form_data",
                 type: "post",
-                data: data,
+                data: new FormData(this),
                 cache: false,
+                contentType: false,
+                processData: false,
                 success: function (response) {
+                    console.log(response);
                     if (response != 0) {
                         course_category_load();
                         $('#category_modal').modal('hide');
@@ -350,48 +306,7 @@ $(document).ready(function () {
         })
 
     })
-
-// // =====================course category ==========================================
-    
-// $('.category_edit').click(function(){
-//     // debugger;
-//     alert();
-//     console.log("linked video") 
-// })
-//     let course_category_load = () => {
-//         $('.table').addClass('dataTable')
-//         // $('.table').dataTable();
-//         $.ajax({
-//             url: base_url + "course_cat_data",
-//             type: "post",
-//             data: {},
-//             cache: false,
-//             success: function (response) {
-//                 let res = JSON.parse(response);
-//                 console.log(res.category);
-//                 let ct = "";
-//                 let i = 1;
-//                 $.each(res.category, (key, value) => {
-//                     ct += `<tr> <td scope="row">${i}</td>
-//                 <td>${value.c_name}</td>
-//                 <td style="width:40%">${value.c_desc.slice(0, 50)}...</td>  
-//                  <td> 
-//                  <button class="btn btn-primary category_edit"><i class="bi bi-pencil-square"></i></button> 
-//                 <a href='category_delete/${value.c_id}'><button class="btn btn-danger"><i class="bi bi-trash"></i></button></a>
-//               </td></tr>`;
-//                     i++;
-//                 })
-//                 // alert(opt)
-//                 $('#category_output').html(ct);
-//                 // $('.dd').html(opt); 
-//             }
-//         })
-
-//     }
-//     course_category_load();
-
-
-  
+ 
 
     function student_course_list() {
         $.ajax({
@@ -435,14 +350,12 @@ $(document).ready(function () {
     $('#course_input_btn').click(function () {
         $('#course_input_modal').modal('show');
         $(document).on("submit", '#course_input_modal_form', function (e) {
-            e.preventDefault();
-            // var data = $("#course_input_modal_form").serialize();
+            e.preventDefault(); 
             $.ajax({
                 url: base_url + "course_list_insert",
                 type: "post",
                 data: new FormData(this),
-                cache: false,
-                cache: false,
+                cache: false, 
                 contentType: false,
                 processData: false,
                 success: function (response) {
@@ -472,48 +385,39 @@ $(document).ready(function () {
 
 
 
+    $(document).on("submit", '#studentRegisterForm', function (e) {
+        e.preventDefault();
+        document.write(new FormData(this));
+        $.ajax({
+            url: base_url + "studentRegisterSave",
+            type: "post",
+            data: new FormData(this),
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log(response);
+                if (response != 0) {
+                    course_category_load();
+                    $('#category_modal').modal('hide');
+                    $('#c-success').show();
+                    $('#c-error').hide();
+                    setTimeout(() => {
+                        $('#c-success').slideUp();
+                    }, 3000);
+                } else {
+                    $('#c-success').hide();
+                    $('#c-error').show();
+                    setTimeout(() => {
+                        $('#c-error').slideUp();
+                    }, 3000);
+                }
 
-    // $('#What_you_learn_btn').click(function () {
-    //     // alert();
-    //     $('#What_you_learn_modal').modal('show');
-    //     // alert('hii')course_module_btn
-    //     // $(document).on("submit", '#course_module_form', function (e) {
-    //     //     e.preventDefault();
-    //     //     // var data = $("#course_input_modal_form").serialize();
-    //     //     $.ajax({
-    //     //         url: base_url + "course_module_save",
-    //     //         type: "post",
-    //     //         data: new FormData(this),
-    //     //         cache: false,
-    //     //         cache: false,
-    //     //         contentType: false,
-    //     //         processData: false,
-    //     //         success: function (response) {
-    //     //             console.log(response);
-    //     //             if (response != 0) {
-    //     //                 course_category_load();
-    //     //                 $('#module_modal').modal('hide');
-    //     //                 $('#c-success').show();
-    //     //                 $('#c-error').hide();
-    //     //                 setTimeout(() => {
-    //     //                     $('#c-success').slideUp();
-    //     //                 }, 3000);
-    //     //             } else {
-    //     //                 $('#c-success').hide();
-    //     //                 $('#c-error').show();
-    //     //                 setTimeout(() => {
-    //     //                     $('#c-error').slideUp();
-    //     //                 }, 3000);
-    //     //             }
+
+            }
+        })
+    })
     
-    
-    //     //         }
-    //     //     })
-    //     // })
-    
-    // })     
-    
-  
 
 });
 

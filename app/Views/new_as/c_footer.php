@@ -38,7 +38,11 @@
 <!-- Bootstrap 4.5 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
 <script src="http://localhost/breakowits/assets/vendors/bootstrap/bootstrap.js"></script>
-
+<script>
+    $('.toggle-sidebar-btn').click(function(){
+      $('.logo').toggle();
+    })
+  </script>
 <!-- Counteruhttp://localhost/breakowits/p -->
 <script src="http://localhost/breakowits/assets/vendors/counterup/waypoint.js"></script>
 <script src="http://localhost/breakowits/assets/vendors/counterup/jquery.counterup.min.js"></script>
