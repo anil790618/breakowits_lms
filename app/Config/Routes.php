@@ -93,6 +93,12 @@ $routes->match(['get','post'],'autoload_data','Home::autoload_data');
 
 $routes->match(['get','post'],'quiz_data_save','Home::quiz_data_save'); 
 $routes->match(['get','post'],'mcq-quiz/(:num)','Home::mcq_quiz/$1');
+$routes->match(['get','post'],'module-quiz-start/(:num)','Home::module_quiz_start/$1');
+$routes->match(['get','post'],'quiz_answer_form_save','Home::quiz_answer_form_save'); 
+$routes->match(['get','post'],'module_quiz_result/(:num)','Home::module_quiz_result/$1'); 
+$routes->match(['get','post'],'startquizFun_save/(:num)','Home::startquizFun_save/$1');
+$routes->match(['get','post'],'show-all-quises/(:num)','Home::show_all_quises/$1');
+// $routes->match(['get','post'],'module-quiz-start/(:num)','Home:module-quiz-start/$1');
 
 
 

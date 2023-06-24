@@ -444,3 +444,55 @@ $(document).on("submit", '#quiz_form', function (e) {
         }
     })
 }) 
+
+
+$('#Add_to_wish_list').click(function(){
+    alert("Course added in your wish list");
+})
+
+// quizform
+
+
+
+$(document).on("submit", '#quiz_answer_form', function (e) {
+    e.preventDefault(); 
+    // alert();
+    let time = $('.timer').text();
+    // time = 30.00-time;
+$('#time').val(time)
+
+    $.ajax({
+        url: base_url + "quiz_answer_form_save",
+        type: "post",
+        data: new FormData(this),
+        cache: false, 
+        contentType: false,
+        processData: false,
+        success: function (response) {
+            console.log(response);
+            window.location.href =base_url+response;
+            // if (response != 0) {
+            //     // course_category_load();
+            //     $('#quiz_form').trigger('reset');
+            //     $('#quiz_modal').modal('hide');
+            //     $('#c-success').show();
+            //     $('#c-error').hide();
+            //     setTimeout(() => {
+            //         $('#c-success').slideUp();
+            //     }, 3000);
+            // } else {
+            //     $('#c-success').hide();
+            //     $('#c-error').show();
+            //     setTimeout(() => {
+            //         $('#c-error').slideUp();
+            //     }, 3000);
+            // }
+
+
+        }
+    })
+}) 
+
+// quiz_final_submitted
+
+ 

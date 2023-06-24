@@ -20,20 +20,13 @@ class Home extends BaseController
             $email = $this->request->getVar('username');
             $password = $this->request->getVar('password');  
             
-            $model = new AdminModel();
-            // $data['userdata'] = $model->findAll();
-            $data= $model->where('email',$email)->first();
-            //  print_r($data);
-            // $pass = $data;
-            // echo $pass;
-            // exit;
+            $model = new AdminModel(); 
+            $data= $model->where('email',$email)->first(); 
             if($data){
                 $pass  = $data['password']; 
-                $verify_pass = password_verify($password, $pass);
-                // echo $verify_pass;
+                $verify_pass = password_verify($password, $pass); 
                 
-                if($verify_pass){
-                    echo"Logged in";
+                if($verify_pass){ 
                     $ses_data = [
                         'id'       => $data['id'],
                         'userid'       => $data['user_role_id'],
@@ -102,7 +95,7 @@ class Home extends BaseController
                 'email'    => 'required|valid_email',
             ];
             if($this->validate($rules)){
-                echo " validate";
+                // echo " validate";
                  $model = new AdminModel();
 
                 $data = array(
@@ -172,11 +165,13 @@ class Home extends BaseController
         . view('view_assests/instructor',$data)
         . view('footer');
     }
-    public function mcq_quiz()
+    public function mcq_quiz($id)
     {   
+         $data['id']=$id;
+         $data['quiz_question'] = $this->main_model->getAllRowsData("quiz_question", "*", "m_id=$id");
         return view('header')
         . view('sidemenu')
-        . view('view_assests/mcq_quiz')
+        . view('view_assests/mcq_quiz',$data)
         . view('footer');
     }
     public function instructor_data()
@@ -203,7 +198,7 @@ class Home extends BaseController
     }
    public function instructor_save(){
         $data =  $this->request->getVar(); 
-        echo $data['password']=md5($data['password']); 
+          $data['password']=md5($data['password']); 
             $result = $this->main_model->insert_table('tbl_users',$data);
             if($result){
                 echo 1;
@@ -326,9 +321,10 @@ class Home extends BaseController
     $data['lession'] = $this->main_model->getAllRowsData("module_lession", "`id`,`name`, `description`,`video_url`", "id=$uid");
     return json_encode($data); 
    }
+ 
    public function student_save(){
         $data =  $this->request->getVar(); 
-        echo $data['password']=md5($data['password']); 
+          $data['password']=md5($data['password']); 
             $result = $this->main_model->insert_table('tbl_users',$data);
             if($result){
                 echo 1;
@@ -665,10 +661,7 @@ public function module_lession()
     }
 
 
-    public function lession($id)
-{  
-
-    // echo "vido id is".$id;autoload_data
+    public function lession($id){   
     $data['lession'] = $this->main_model->getAllRowsData("module_lession", "`id`,`name`, `description`,`video_url`", "id=$id");
     return view('header')
     . view('sidemenu')
@@ -725,4 +718,164 @@ print_r($data);
         }
 }
 
+
+
+public function module_quiz_start($uid){ 
+    $session = session();
+    $data['quiz_question'] = $this->main_model->getAllRowsData("quiz_question", "*", "m_id=$uid"); 
+    $sid = $session->get('id');
+    $data['quiz_attempt'] = $this->main_model->getNumRow("quiz_result", "*", "student_id=$sid and m_id=$uid"); 
+    // echo"row no is ". $data['quiz_attempt'];
+    $data1['m_id']=$uid;
+    $data1['stu_id']=$sid;
+    date_default_timezone_set("asia/kolkata"); 
+    $data1['time']= date("H:i:s"); 
+    $data1['endtime']= date("H:i:s",strtotime('+30 minutes')); 
+    $getqdata = $this->main_model->getRowData("quiz_time", "*", "stu_id=$sid and  m_id  = $uid"); 
+    if($getqdata){
+        $data['quiztime'] = $getqdata;
+    }
+    else{
+        $result = $this->main_model->insert_table('quiz_time',$data1);
+    }
+    
+    // exit;
+    $module_id =  $data['quiz_question'][0]['m_id'];
+    if($data['quiz_attempt']>0){
+        return redirect()->to("/module_quiz_result/$module_id"); 
+       } 
+    return view('header')
+    . view('sidemenu')  
+    . view('view_assests/module_quiz_start',$data)
+    . view('new_as/quiz_footer');
+   }
+
+   public function quiz_answer_form_save(){
+    $data =  $this->request->getVar();  
+    $dt['quiz_question'] = $this->main_model->getAllRowsData("quiz_question", "m_id,question,correct_ans", "m_id>0");
+   $t['st'] =$this->main_model->getNumRow("student", "*", "id>0");
+    // print_r($data);
+    $no =0;
+    $correct_question=0; 
+   
+    if( $data['question1']== $dt['quiz_question'][0]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question2']== $dt['quiz_question'][1]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question3']== $dt['quiz_question'][2]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question4']== $dt['quiz_question'][3]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question5']== $dt['quiz_question'][4]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question6']== $dt['quiz_question'][5]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question7']== $dt['quiz_question'][6]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question8']== $dt['quiz_question'][7]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question9']== $dt['quiz_question'][8]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    }
+    if( $data['question10']== $dt['quiz_question'][9]['correct_ans']){
+        $correct_question+=1;
+        $no+=1;
+    }else{
+        $no-=0;
+    } 
+    $data['marks']=$no;
+    $data['correct_question']=$correct_question;
+    $module_id =  $dt['quiz_question'][0]['m_id'];
+        $result = $this->main_model->insert_table('quiz_result',$data);
+        if($result){
+            echo "/module_quiz_result/$module_id";
+            // return redirect()->to("/module_quiz_result/$module_id"); 
+        }
+        else{
+            echo 0;
+        }
+}
+
+
+public function module_quiz_result($module_id){  
+    $session = session();  
+    
+    $sid = $session->get('id');
+    // $module_id = $session->get('module_id');
+    // echo "module id is".$module_id;
+    $data['result'] = $this->main_model->getAllRowsData("quiz_result", "*", "student_id=$sid and m_id=$module_id");
+    // $data['result'] = $this->main_model->getAllRowsData("quiz_result", "*", "student_id=$sid ");
+    // echo "<pre>";
+    // print_r($data);
+    return view('header')
+    . view('sidemenu')
+    . view('view_assests/module_quiz_result',$data)
+    . view('footer');
+}
+// startquizFun_save
+
+public function startquizFun_save($id){ 
+    $session = session();  
+    $sid = $session->get('id');
+    $data['m_id']=$id;
+    $data['stu_id']=$sid;
+    date_default_timezone_set("asia/kolkata"); 
+    $data['time']= date("h:i:s"); 
+     $result = $this->main_model->insert_table('quiz_time',$data);
+        return redirect()->to("/module-quiz-start/$id"); 
+        if($result){
+            echo 1;
+        }
+        else{
+            echo 0;
+        }
+}
+
+
+
+public function show_all_quises($id)
+{   
+    //  $data['id']=$id;
+    echo $id;
+     $data['quises'] = $this->main_model->getAllRowsData("quiz_question", "*", "m_id>0");
+    return view('header')
+    . view('sidemenu')
+    . view('quiz_assets/show_all_quises',$data)
+    . view('footer');
+}
 }

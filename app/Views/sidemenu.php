@@ -134,16 +134,10 @@
       </li> 
    
       <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#components-quz" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-person"></i><span>My course</span><i class="bi bi-chevron-down ms-auto"></i>
+      <a class="nav-link collapsed"   href="'.base_url().'courselist">
+        <i class="bi bi-person"></i><span>My courses</span> 
       </a>
-      <ul id="components-quz" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="'.base_url().'courselist">
-            <i class="bi bi-circle"></i><span>Course Details</span>
-          </a>
-        </li> 
-      </ul>
+     
     </li> ';
       }
       ?>

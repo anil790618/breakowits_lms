@@ -13,7 +13,7 @@ console.log("course _added")
             cache: false,
             success: function (response) {
                 let res = JSON.parse(response);
-                console.log(res);
+                // console.log(res);
                 // console.log(res.topic[0].);
                 let clist = "";
                 let i = 1;

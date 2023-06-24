@@ -4,6 +4,7 @@
 // exit;
 // echo $topic['t_heading'];
 // $modulecount="";
+// session_start();
 if($topic){
     foreach($topic as $val){
         $t_id= $val['t_id'];
@@ -147,6 +148,7 @@ if($topic){
                                             Module</a>
                                         <a href="javascript:void(0)" class="px-3" onclick="details_add_lession()">Add
                                             lessions</a>
+                                        <a   class="px-3" href="<?=base_url()?>show-all-quises/<?=$t_id?>"> Show Quises</a>
                                     </div>
                                     <!-- <a href="javascript:void(0)" class="expand-all">Expand all sections</a> lession_count  • 3h 11m total time-->
                                 </div>
@@ -249,7 +251,10 @@ if($topic){
                                 if($moduel_count > 0){
                                     foreach($module as $val){
                                         // print_r($val);
-                                        $id= $val['id'];
+                                        $id= $val['id']; 
+                                        $module_id= $val['id']; 
+                                        // $ses_data = ['module_id'=> $id];
+                                        // $session->set($ses_data); 
                                         // echo $id;
                                         $name= $val['name']; 
                                         echo "
@@ -259,7 +264,7 @@ if($topic){
                                                     <span class='arr-head acc_btn_span'  style='font-size:20px ' >".$name."</span> 
                                                     </button> 
                                                     <i class='bi bi-pencil py-3 px-2 'style='font-size:20px'  onclick='detail_course_module($id)'></i>
-                                                    <a href='javascript:void(0)' class='px-3' onclick='addQuiz_fun($id)'  style='font-size:16px;white-space:nowrap'>Add Quiz</a>
+                                                    <a href='javascript:void(0)' class='px-3' onclick='addQuiz_fun($id)'  style='font-size:16px;white-space:nowrap'>Add Quiz </a>
                                             </h2>
                                             <div id='collapseOne".$id."' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
                                             "?>
@@ -522,7 +527,11 @@ if($topic){
                                                 <form class="row" id="quiz_form">
                                                     <div class="col-12">
                                                         <input type="hidden" class="form-control" id="m_id"
-                                                            name="m_id" value="<?=$t_id?>">
+                                                            name="m_id" value="
+                                                             // $module_id
+                                                             
+                                                             ">
+                                                          
                                                         <!-- <textarea name="name" id="name" class="form-control"
                                                             style="width:100%;"></textarea> -->
 

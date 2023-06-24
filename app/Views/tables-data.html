@@ -1,82 +1,74 @@
-  <main id="main" class="main">
+<?php
+$session = session();
+?>
+<main id="main" class="main">
+    <?php   
+$quizstart =base_url()."module-quiz-start/".$id;
+    ?>
+    <section class="section" id="quizsection">
+        <div class="box mybox">
+            <div class="card col-12 col-md-7 mx-auto ">
+                <h5 class="card-title  " style="padding: 20px 20px 0px 37px;">Some Rules of this Quiz </h5>
+                <div class="card-body" style="padding: 0 20px 20px 20px;">
+                    <ol>
+                        <li>You Will get point on the basis of your correct answers.</li>
+                        <li>You cann't exit from the quiz while you are playing</li>
+                        <li>You can select only one Answer</li>
+                    </ol>
+                    <div class="mx-3">
+                        <a href="javascript:void(0)" class="btn btn-outline-primary">Exit </a>
+                        <a href="javascript:void(0)" id="hideshowbtn" class="btn btn-primary">Continue</a>
+                    </div>
 
-    <div class="pagetitle">
-      <h1>Data Tables</h1>
-      <nav>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item">Tables</li>
-          <li class="breadcrumb-item active">Data</li>
-        </ol>
-      </nav>
-    </div><!-- End Page Title -->
-
-    <section class="section">
-      <div class="row">
-        <div class="col-lg-12">
-
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Datatables</h5>
-              <p>Add lightweight datatables to your project with using the <a href="https://github.com/fiduswriter/Simple-DataTables" target="_blank">Simple DataTables</a> library. Just add <code>.datatable</code> class name to any table you wish to conver to a datatable</p>
-
-              <!-- Table with stripped rows -->
-              <table class="table datatable">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Position</th>
-                    <th scope="col">Age</th>
-                    <th scope="col">Start Date</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Brandon Jacob</td>
-                    <td>Designer</td>
-                    <td>28</td>
-                    <td>2016-05-25</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Bridie Kessler</td>
-                    <td>Developer</td>
-                    <td>35</td>
-                    <td>2014-12-05</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Ashleigh Langosh</td>
-                    <td>Finance</td>
-                    <td>45</td>
-                    <td>2011-08-12</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Angus Grady</td>
-                    <td>HR</td>
-                    <td>34</td>
-                    <td>2012-06-11</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Raheem Lehner</td>
-                    <td>Dynamic Division Officer</td>
-                    <td>47</td>
-                    <td>2011-04-19</td>
-                  </tr>
-                </tbody>
-              </table>
-              <!-- End Table with stripped rows -->
-
+                </div>
             </div>
-          </div>
-
         </div>
-      </div>
+        
+        <!-- Quiz Box -->
+        <div class="quiz_box">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-between align-items-center borderd" >
+            <h5 class="card-title  " style="padding: 20px 20px 0px 37px;">All Questions are Required </h5>
+            <h5 class="card-title timer" id="quiz_time"> 30:00</h5>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form id="quiz_answer_form"   name='quiz_answer_form' method="post">
+                   
+                        <?php
+                        $no = 1;
+                        foreach ($quiz_question as $key => $value) {
+                        //    echo $value['question']; 
+                           ?> 
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="  card-title" style="    padding: 0px 0 0px 0px;"><?=$no?>. <?= $value['question'];?></div>
+                                <div class="form-check">
+                                    <div> <input class="form-check-input" type="radio" value="1" id="opt<?= $value['id'].$no;?>"  name="question<?= $value['id'];?>">  <label class="form-check-label" for="opt<?= $value['id'].$no;?>" > <?= $value['opt1'];?>  </label></div>
+                                    <div> <input class="form-check-input" type="radio" value="2" id="opt<?= $value['id'].$no;?>"  name="question<?= $value['id'];?>">  <label class="form-check-label" for="opt<?= $value['id'].$no;?>" ><?= $value['opt2'];?>  </label></div>
+                                    <div> <input class="form-check-input" type="radio" value="3" id="opt<?= $value['id'].$no;?>"  name="question<?= $value['id'];?>">  <label class="form-check-label" for="opt<?= $value['id'].$no;?>" ><?= $value['opt3'];?>  </label></div>
+                                    <div> <input class="form-check-input" type="radio" value="4" id="opt<?= $value['id'].$no;?>"  name="question<?= $value['id'];?>">  <label class="form-check-label" for="opt<?= $value['id'].$no;?>" ><?= $value['opt4'];?>  </label></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <?php
+
+                        $no++;
+                        }
+
+
+                        ?>
+                    <input type="text" name="student_id" value="<?php    echo  $session->get('id');  ?>">
+                    <input type="text" name="m_id" value="<?= $value['m_id'];?>">
+                    <input type="text" name="time" id="time" >
+                    <button type="submit" class='btn btn-primary'>Submit Quiz</button>
+                </form>
+               
+            </div>
+        </div>
+        </div>
+
     </section>
 
-  </main><!-- End #main -->
- 
+</main><!-- End #main -->

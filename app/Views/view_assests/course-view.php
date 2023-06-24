@@ -209,7 +209,7 @@ if($topic){
                                                                 </div> 
                                                                 <?php
                                                     }
-                                                    $quiz = base_url()."mcq-quiz/".$l_id;
+                                                    $quiz = base_url()."mcq-quiz/".$id;
                                                     echo "<a href='$quiz' class='btn btn-info py-0 px-2 mx-3 ' >quiz</a>";
                                                     } else{
                                                         echo " <div id='collapseOne' class='accordion-collapse collapse show' data-bs-parent='#accordionExample'>
@@ -624,7 +624,7 @@ if($topic){
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="buy-now btn btn-solid-border">Add to wish list</div>
+                                <div class="buy-now btn btn-solid-border" id="Add_to_wish_list">Add to wish list</div>
 
                                 <p class="money-back"></p>
 

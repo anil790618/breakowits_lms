@@ -1,14 +1,32 @@
-<div class='accordion-item'>
-  <h2 class='accordion-header ' id='headingOne'>
-    <button class='accordion-button d-block w-100 d-flex justify-content-between px-3  acc_btn'type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>
-    <span class='arr-head acc_btn_span'  style='font-size:20px ' >Item 1</span>
-    <!-- <span class='acc_btn_span float-end' style='font-size:15px;font-weight:100'>hello</span> -->
-    </button>
-    
-  </h2>
-  <div id='collapseOne' class='accordion-collapse collapse show' aria-labelledby='headingOne' data-bs-parent='#accordionExample'>
-    <div class='accordion-body'>
-      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-    </div>
+<main id="main" class="main"> 
+  <?php   
+$quizstart =base_url()."module-quiz-start/".$id;
+  ?>
+<section class="section">
+<div class="row">
+  <div class="col-lg-12 d-flex justify-content-center align-items-center" style="height:70vh"> 
+      <div class="quiz_condition">
+      <div class="card">
+      <h5 class="card-title  "  style="padding: 20px 20px 0px 37px;">Some Rules of this Quiz   </h5>
+          <div class="card-body" style="padding: 0 20px 20px 20px;">
+              <ol>
+                  <li>You Will get point on the basis of your correct answers.</li>
+                  <li>You cann't exit from the quiz while you are playing</li>
+                  <li>You can select only one Answer</li>
+              </ol>
+              <div class="mx-3">
+              <a href="#" class="btn btn-outline-primary">Exit </a>
+              <a href="<?=$quizstart?>" id="playpausebtn"   class="btn btn-primary">Continue</a>
+              </div>
+           
+          </div>
+          </div>
+      </div>
   </div>
 </div>
+<script>
+
+</script>
+</section>
+
+</main><!-- End #main -->

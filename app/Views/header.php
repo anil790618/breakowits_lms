@@ -55,6 +55,14 @@ $session = session();
     padding :1px 5px !important;
   }
 
+  .mybox{
+    height:70vh;
+    display:flex;
+    align-items:center;
+  }
+.quiz_box{
+  display:none;
+}
 
 </style>
 <body>

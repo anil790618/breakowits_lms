@@ -39,6 +39,7 @@
   <script src="<?php  echo base_url();  ?>assets/js/course_category.js"></script> 
   <script src="<?php  echo base_url();  ?>assets/js/course.js"></script> 
   <script src="<?php  echo base_url();  ?>assets/js/student.js"></script> 
+  <script src="<?php  echo base_url();  ?>assets/js/course_details.js"></script>  
 
 </body>
 
